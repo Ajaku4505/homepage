@@ -14,7 +14,7 @@
 								<p>記憶に残してほしいもの</p>
 							</div>
 							<div class="mainvisual">
-							   <img src="/mv_01.jpg" alt="mainvisual01">
+							   <img src="img/index/mv_01.jpg" alt="mainvisual01">
 							</div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@
 									<p>それと後世に自分が何してどんな人だったかくらいは</p>
 									<p>残るようにしていたいなってのも本音です笑</p>
 								</div>
-								<div class="imgBox"><img src="/about-img.jpg" alt="about-img"></div>
+								<div class="imgBox"><img src="img/index/about-img.jpg" alt="about-img"></div>
 							</div>
 						</div>
 					</section>
@@ -53,7 +53,7 @@
 								<h1 class="section-title weight700">MyCar</h1>
 							</div>
 							<div class="section-contets">
-								<div class="imgBox"><img src="/mycar-img.jpg" alt="mycar-img"></div>
+								<div class="imgBox"><img src="img/index/mycar-img.jpg" alt="mycar-img"></div>
 								<div class="textBox weight300">
 									<p class="meta">2021 / 09 / 21</p>
 									<p>Honda AccordWagon 1994</p>
@@ -74,8 +74,8 @@
 							</div>
 							<div class="section-contets">
 								<div class="imgBox">
-									<img src="" alt="design-img">
-									<img src="" alt="design-img">
+									<img src="img/index/design-img_01.jpg" alt="design-01">
+									<img src="img/index/design-img_02.jpg" alt="design-02">
 								</div>
 								<div class="textBox weight300">
 									<p>箱ステから痛車のデザインなんでも楽しそうなことはやってます</p>
@@ -94,16 +94,16 @@
 					<section id="photo" class="contents-area sec04">
 						<div class="secWrap">
 							<div class="section-text">
-								<h1 class="section-title weight700">Photo</h1><span class="section-subtitle">by<img src="" alt="カラスズ印刷"></span>
+								<h1 class="section-title weight700">Photo</h1><span class="section-subtitle weight700">by<img src="img/index/karasuzu.png" alt="カラスズ印刷"></span>
 							</div>
 							<div class="section-contets">
 								<div class="imgBox">
-									<img src="" alt="photo-01">
-									<img src="" alt="photo-02">
-									<img src="" alt="photo-03">
-									<img src="" alt="photo-04">
-									<img src="" alt="photo-05">
-									<img src="" alt="photo-06">
+									<img src="img/index/photo-img_01.jpg" alt="photo-01">
+									<img src="img/index/photo-img_02.jpg" alt="photo-02">
+									<img src="img/index/photo-img_03.jpg" alt="photo-03">
+									<img src="img/index/photo-img_04.jpg" alt="photo-04">
+									<img src="img/index/photo-img_05.jpg" alt="photo-05">
+									<img src="img/index/photo-img_06.jpg" alt="photo-06">
 								</div>
 								<div class="textBox weight300">
 									<p>カメラはフルサイズのNikon D750とマイクロフォーサーズのOLYMPUS E-M10 Markiiを</p>
@@ -135,7 +135,8 @@ export default {
 <style>
 
 	@charset "utf-8";
-	@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+	@import url(https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap);
+	@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
 	:root {
 		--main-color: #3772FF;
@@ -200,6 +201,7 @@ export default {
 
 	a {
 	  background-color: transparent;
+	  color: var(--sub-color);
 	}
 
   h1,
@@ -306,6 +308,7 @@ export default {
 		display: inline-block;
 		position: relative;
 		font-size: 6rem;
+		font-family: 'Ropa Sans', sans-serif;
 	}
 
 	.section-text h1.section-title::after {
@@ -327,24 +330,24 @@ export default {
 		text-align: right;
 	}
 
-.link {
-    text-align: center;
-    margin-top: 30px;
-}
+	.link {
+	    text-align: center;
+	    margin-top: 30px;
+	}
 
-.more.button {
-    padding: 10px 50px;
-    border: solid 1px var(--sub-color);
-    display: inline-block;
-    font-weight: 300;
-}
+	.more.button {
+	    padding: 10px 50px;
+	    border: solid 1px var(--sub-color);
+	    display: inline-block;
+	    font-weight: 300;
+	}
 
-.more.button:hover {
-    padding: 10px 50px;
-    border: solid 1px var(--main-color);
-    background: var(--main-color);
-    color: #FFF;
-}
+	.more.button:hover {
+	    padding: 10px 50px;
+	    border: solid 1px var(--main-color);
+	    background: var(--main-color);
+	    color: #FFF;
+	}
 
 	/* about */
 
@@ -352,7 +355,7 @@ export default {
 		left: 200px;
 	}
 	#about h1.section-title::after {
-		left: 310px;
+		left: 260px;
 	}
 
 	#about .section-contets {
@@ -381,6 +384,7 @@ export default {
 
 	#mycar .imgBox {
 		text-align: center;
+		margin-bottom: 20px;
 	}
 
 	/* design */
@@ -389,7 +393,19 @@ export default {
 		left: 660px;
 	}
 	#design h1.section-title::after {
-		left: 340px;
+		left: 280px;
+	}
+
+	#design .imgBox {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+
+	#design .imgBox img {
+		width: 480px;
+		height: 480px;
+		object-fit: cover;
 	}
 
 
@@ -400,6 +416,28 @@ export default {
 	}
 	#photo h1.section-title::after {
 		left: -220px;
+	}
+
+	.section-subtitle {
+	    font-size: 2.5rem;
+	    margin-left: 20px;
+	}
+
+	.section-subtitle img {
+		margin-left: 10px;
+	}
+
+	#photo .imgBox {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	#photo .imgBox img {
+		width: calc(100% / 3 - 10px);
+		height: calc(100% / 3 - 10px);
+		object-fit: cover;
+		margin-bottom: 20px;
 	}
 
 </style>
