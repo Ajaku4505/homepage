@@ -1,7 +1,4 @@
 <template>
-	<div>
-
-  <div class="flex-area">
 
     <div class="main-contents">
       <!-- Main Content -->
@@ -27,9 +24,6 @@
       </div>
     </div>
 
-  </div>
-</div>
-
 </template>
 
 <script>
@@ -37,6 +31,7 @@
     	layout: "subpage"
 	}
 </script>
+
 <style>
 
 /* header */

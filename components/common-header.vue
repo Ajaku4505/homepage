@@ -4,7 +4,7 @@
   <nav class="navbar fixed-top" id="mainNav">
     <div class="header-menu">
       <div class="header-titile">
-        <img src="img/index/header.png" alt="KOKI Ajaku">
+        <img v-bind:src="img_url" alt="KOKI Ajaku">
       </div>
       <div class="header-sns">
         <a href="https://www.instagram.com/ajaku_ku/?hl=ja" target="_blank">
@@ -31,6 +31,18 @@
   </nav>
 
 </template>
+
+<script>
+
+export default {
+  data () {
+    return {
+      img_url: '../img/index/header.png',
+    }
+  },
+}
+
+</script>
 
 <style>
 
@@ -101,6 +113,14 @@
   a {
     background-color: transparent;
     color: var(--sub-color);
+    -webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+            transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+  }
+
+  a:hover {
+    opacity: .7;
+    -webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+            transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
   }
 
   a.external-link {

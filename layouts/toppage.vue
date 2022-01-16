@@ -13,13 +13,13 @@
 				<li><a v-bind:href="url">Home</a></li>
 						<li><router-link class="nav-link" to="/mycar/accord">MyCar</router-link></li>
 						<li><router-link class="nav-link" to="design">Design</router-link></li>
-						<li><router-link class="nav-link" to="design">Photo</router-link></li>
+						<li><router-link class="nav-link" to="photo">Photo</router-link></li>
 				<li class="space">
 					<div></div>
 				</li>
-				<li><a class="external-link" href="munakata2020">Munakata2020</a></li>
-				<li><a class="external-link" href="IW2021">IW2021</a></li>
-				<li><a class="external-link" href="daydream2021">DayDream2021</a></li>
+				<li><a class="external-link" href="munakata2020" target="_blank">Munakata2020</a></li>
+				<li><a class="external-link" href="IW2021" target="_blank">IW2021</a></li>
+				<li><a class="external-link" href="daydream2021" target="_blank">DayDream2021</a></li>
 			</ul>
 			<div class="footer-profile">
 				<img src="img/index/profile.jpg" alt="profile">

@@ -62,9 +62,9 @@
 				  <p>Charactor : YuzukiRoa (NIJISANJI)</p>
 				</div>
 				<div class="link">
-				  <a href="#">
+				  <router-link class="nav-link" to="/mycar/accord">
 					<div class="more button">more +</div>
-				  </a>
+				  </router-link>
 				</div>
 			  </div>
 			</div>
@@ -87,9 +87,9 @@
 				  <p>一番デザインでこだわってるのはファーストインパクトと色の使い方です</p>
 				</div>
 				<div class="link">
-				  <a href="#">
+				  <router-link class="nav-link" to="design">
 					<div class="more button">more +</div>
-				  </a>
+				  </router-link>
 				</div>
 			  </div>
 			</div>
@@ -114,9 +114,9 @@
 				  <p>愛用しています。なんで写真が好きなのかと聞かれると美しいからとしか言えません笑</p>
 				</div>
 				<div class="link">
-				  <a href="#">
+				  <router-link class="nav-link" to="photo">
 					<div class="more button">more +</div>
-				  </a>
+				  </router-link>
 				</div>
 			  </div>
 			</div>
@@ -140,7 +140,7 @@
 </script>
 
 <style>
-	
+
 	/* header */
 
 	header.masthead {
@@ -213,11 +213,17 @@
 		margin-top: 30px;
 	}
 
+	.link a:hover {
+		opacity: 1;
+	}
+
 	.more.button {
 		padding: 10px 50px;
 		border: solid 1px var(--sub-color);
 		display: inline-block;
 		font-weight: 300;
+	    -webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+            transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
 	}
 
 	.more.button:hover {
@@ -225,6 +231,8 @@
 		border: solid 1px var(--main-color);
 		background: var(--main-color);
 		color: #FFF;
+	    -webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+            transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
 	}
 
 	/* about */
