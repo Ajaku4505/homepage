@@ -134,7 +134,7 @@
 <script>
 
 	export default {
-    	layout: "toppage"
+    	layout: "toppage",
 	}
 
 </script>

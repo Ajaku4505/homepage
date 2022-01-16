@@ -40,6 +40,14 @@ export default {
       img_url: '../img/index/header.png',
     }
   },
+
+  mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => this.$nuxt.$loading.finish(), 2000)
+    })
+  }
 }
 
 </script>
