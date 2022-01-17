@@ -60,40 +60,41 @@
 
 		components: { Modal },
 
-	    data () {
-	      return {
-	        showContent: false,
-	        postItem: "",
-	        items: [
-	          { id: 1,
-	            desc: '課題で作成した美容室のHPです。',
-	            range: 'コーディング(レスポンシブ対応)',
-	            lang: 'HTML, CSS(Sass)',
-	            img_src: require('../static/img/design/design-img_01.jpg'),
-	          },
-	          { 
-	            id: 2, 
-	            desc: '実案件で作成したコーポレートサイトです。',
-	            range: 'コーディング(レスポンシブ対応)',
-	            lang: 'HTML, CSS(Sass)',
-	            img_src: require('../static/img/design/design-img_02.jpg'),
-	          },
+		data () {
+			return {
+				showContent: false,
+				postItem: "",
+				items: [
+					{ 
+						id: 1,
+						desc: '課題で作成した美容室のHPです。',
+						range: 'コーディング(レスポンシブ対応)',
+						lang: 'HTML, CSS(Sass)',
+						img_src: require('../static/img/design/design-img_01.jpg'),
+					},
+					{ 
+						id: 2, 
+						desc: '実案件で作成したコーポレートサイトです。',
+						range: 'コーディング(レスポンシブ対応)',
+						lang: 'HTML, CSS(Sass)',
+						img_src: require('../static/img/design/design-img_02.jpg'),
+					},
 
-	        ]
-	      }
+				]
+			}
 	    },
+
 	    methods: {
-	       openModal(item) {
-	        this.showContent = true
-	        this.postItem = item
-	      },
-	      closeModal () {
-	        this.showContent = false
-	      }
+			openModal(item) {
+				this.showContent = true
+				this.postItem = item
+			},
+			closeModal () {
+				this.showContent = false
+			}
 	    }
 
 	}
-
 
 </script>
 
