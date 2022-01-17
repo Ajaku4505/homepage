@@ -36,19 +36,19 @@
 <script>
 
 export default {
- 	data () {
+	data () {
 		return {
 			url: '/',
 		}
 	},
 
-  	mounted() {
-    	this.$nextTick(() => {
-      	this.$nuxt.$loading.start()
+	mounted() {
+		this.$nextTick(() => {
+		this.$nuxt.$loading.start()
 
-      	setTimeout(() => this.$nuxt.$loading.finish(), 2000)
-    	})
-  	}
+		setTimeout(() => this.$nuxt.$loading.finish(), 2000)
+		})
+	},
 
 }
 
@@ -71,7 +71,7 @@ export default {
 	}
 
 	#subpage .nav-link.nuxt-link-active {
-	    border-bottom: solid 2px var(--main-color);
+		border-bottom: solid 2px var(--main-color);
 	}
 
 	#subpage footer .flex-contents > ul,
@@ -105,16 +105,45 @@ export default {
 		font-size: .8rem;
 		background: var(--main-color);
 		color: #FFF;
-    	bottom: 0px;
-    	left: 0px;
-    	width: auto;
-    	padding: 20px 10px;
-    	/* bottom: -10px;
-    	left: -10px;
-    	width: auto;
-    	padding: 30px 20px;
-    	border-radius: 10px; */
+		bottom: 0px;
+		left: 0px;
+		width: auto;
+		padding: 20px 10px;
+		/* bottom: -10px;
+		left: -10px;
+		width: auto;
+		padding: 30px 20px;
+		border-radius: 10px; */
 	}
+
+
+	/* mordal */
+
+	#overlay{
+	  /* 要素を重ねた時の順番 */
+	  z-index:1;
+
+	  /* 画面全体を覆う設定 */
+	  position:fixed;
+	  top:0;
+	  left:0;
+	  width:100%;
+	  height:100%;
+	  background-color:rgba(0,0,0,0.5);
+
+	  /* 画面の中央に要素を表示させる設定 */
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+
+	}
+
+	#content{
+  z-index:2;
+  width:50%;
+  padding: 1em;
+  background:#fff;
+}
 
 	/* add css */
 
@@ -124,22 +153,23 @@ export default {
 	}
 
 	.flex-area {
-	    display: flex;
-	    height: 100vh;
+		display: flex;
+		height: 100vh;
 	}
 
 	#subpage footer {
 		padding: 0;
-	  	width: 20%;
-	  	text-align: left;
-	  	background: none;
+		width: 20%;
+		text-align: left;
+		background: none;
 	}
 
 	.main-contents {
 	  width: 80%;
 	  margin-top: 60px;
+	  overflow: scroll;
 	}
 
-	
+
 
 </style>
