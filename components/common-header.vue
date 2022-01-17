@@ -40,14 +40,6 @@ export default {
       img_url: '../img/index/header.png',
     }
   },
-
-  mounted() {
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start()
-
-      setTimeout(() => this.$nuxt.$loading.finish(), 2000)
-    })
-  }
 }
 
 </script>
@@ -60,6 +52,7 @@ export default {
   :root {
     --main-color: #3772FF;
     --sub-color: #3E3A39;
+    --back-color: #F9F9F9;
     font-family: "Noto Sans JP", sans-serif;
   }
 
@@ -80,7 +73,7 @@ export default {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     color: var(--sub-color);
-    background: #F9F9F9;
+    background: var(--back-color);
     overflow-x: hidden;
   }
 

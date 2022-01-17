@@ -17,11 +17,20 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap' }
+
     ]
   },
 
+  loading: '~/components/loading.vue',
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+  ],
+
+  script: [
+    {
+      src: '~/static/js/main.js'
+    }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

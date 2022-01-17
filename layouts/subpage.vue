@@ -14,8 +14,9 @@
 						<div class="sub_menu">
 							<li><router-link class="nav-link" to="/mycar/accord">Accord</router-link></li>
 							<li><router-link class="nav-link" to="/mycar/cultus">Cultus</router-link></li>
-							<li><router-link class="nav-link" to="/mycar/accord">WagonR</router-link></li>
+							<li><router-link class="nav-link" to="/mycar/wagonr">WagonR</router-link></li>
 						</div>
+						<!--li v-else><router-link class="nav-link" to="/mycar/accord">MyCar</router-link></li-->
 						<li><router-link class="nav-link" to="../design">Design</router-link></li>
 						<li><router-link class="nav-link" to="../photo">Photo</router-link></li>
 					</ul>
@@ -40,6 +41,15 @@ export default {
 			url: '/',
 		}
 	},
+
+  	mounted() {
+    	this.$nextTick(() => {
+      	this.$nuxt.$loading.start()
+
+      	setTimeout(() => this.$nuxt.$loading.finish(), 2000)
+    	})
+  	}
+
 }
 
 </script>
@@ -58,6 +68,10 @@ export default {
 	#subpage footer a {
 	  text-decoration: none;
 	  color: var(--sub-color);
+	}
+
+	#subpage .nav-link.nuxt-link-active {
+	    border-bottom: solid 2px var(--main-color);
 	}
 
 	#subpage footer .flex-contents > ul,
@@ -99,6 +113,11 @@ export default {
 
 	/* add css */
 
+	#subpage section {
+		width: 90%;
+		margin: 100px auto;
+	}
+
 	.flex-area {
 	    display: flex;
 	    height: 100vh;
@@ -113,6 +132,7 @@ export default {
 
 	.main-contents {
 	  width: 80%;
+	  margin-top: 60px;
 	}
 
 </style>
