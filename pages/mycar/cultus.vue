@@ -11,22 +11,27 @@
 							<slick ref="slick" class="slick-outer" :options="slickOptions">
 								<div class="section-contets">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
-										<div class="imgBox"><img src="img/index/about-img.jpg" alt="about-img"></div>
-										<div class="imgBox"><img src="img/index/about-img.jpg" alt="about-img"></div>
-										<div class="imgBox"><img src="img/index/about-img.jpg" alt="about-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-01.jpg" alt="cultus-roa-01-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-02.jpg" alt="cultus-roa-02-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-03.jpg" alt="cultus-roa-03-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-04.jpg" alt="cultus-roa-04-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-05.jpg" alt="cultus-roa-05-img"></div>
 									</slick>
 									<div class="textBox weight300">
-										<p class="meta">2021 / 09 / 21</p>
-										<p>Charactor : YuzukiRoa (NIJISANJI)</p>
+										<p class="meta">2020 / 03 / 26</p>
+										<p>Charactor : 夢月ロア (にじさんじ)</p>
 										<p> </p>
 										<p>今回のデザインは</p>
 									</div>
 								</div>
 								<div class="section-contets">
-									<div class="imgBox"><img src="img/index/about-img.jpg" alt="about-img"></div>
+									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
+										<div class="imgBox"><img src="/img/mycar/cultus-wanko-01.jpg" alt="cultus-wanko-01-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-wanko-02.jpg" alt="cultus-wanko-02-img"></div>
+									</slick>
 									<div class="textBox weight300">
-										<p class="meta">2021 / 09 / 21</p>
-										<p>Charactor : YuzukiRoa (NIJISANJI)</p>
+										<p class="meta">2019 / 10 / 27</p>
+										<p>Charactor : みかん & 虎太郎 (わんことくらそう)</p>
 										<p> </p>
 										<p>今回のデザインは</p>
 									</div>
@@ -63,7 +68,14 @@
 					arrows: false,
 					dots: false,
 					autoplay: true,
-					autoplaySpeed: 4000,
+					infinity: true,
+					autoplaySpeed: 6000,
+					fade: true,
+					speed: 500,
+					swipe: false,
+					lazyLoad: 'progressive',
+					pauseOnFocus: false,
+					pauseOnHover: false
 				}
 			}
 		},
@@ -76,48 +88,53 @@
 
 	/* slick */
 
-.slick-arrow {
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 0;
-	height: 0;
-	margin: auto;
-	padding: 0;
-	background: none;
-	-webkit-appearance: none;
-	   -moz-appearance: none;
-	        appearance: none;
-	white-space: nowrap;
-	text-indent: 100%;
-	outline: none;
-}
+	.slick-arrow {
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 0;
+		height: 0;
+		margin: auto;
+		padding: 0;
+		background: none;
+		-webkit-appearance: none;
+		   -moz-appearance: none;
+				appearance: none;
+		white-space: nowrap;
+		text-indent: 100%;
+		outline: none;
+	}
 
-button.slick-prev.slick-arrow {
-	left: -25px;
-	border-top: 10px solid var(--back-color);
-	border-right: 10px solid var(--sub-color);
-	border-bottom: 10px solid var(--back-color);
-	border-left: 0;
-}
+	button.slick-prev.slick-arrow {
+		left: -25px;
+		border-top: 10px solid var(--back-color);
+		border-right: 10px solid var(--sub-color);
+		border-bottom: 10px solid var(--back-color);
+		border-left: 0;
+	}
 
-button.slick-next.slick-arrow {
-	right: -25px;
-	border-top: 10px solid var(--back-color);
-	border-right: 0;
-	border-bottom: 10px solid var(--back-color);
-	border-left: 10px solid var(--sub-color);
-}
+	button.slick-next.slick-arrow {
+		right: -25px;
+		border-top: 10px solid var(--back-color);
+		border-right: 0;
+		border-bottom: 10px solid var(--back-color);
+		border-left: 10px solid var(--sub-color);
+	}
 
-.container {
-	max-width: 980px;
-	margin: auto;
-	margin-top: 50px;
-}
+	.slick-slider img,
+	.slick-slider video {
+		width: inherit;
+		/* border-radius: 10px; */
+	}
 
-.textBox .meta {
-	text-align: right;
-}
+	.container {
+		max-width: 980px;
+		margin: auto;
+	}
+
+	.textBox .meta {
+		text-align: right;
+	}
 
 </style>

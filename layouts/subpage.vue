@@ -105,10 +105,15 @@ export default {
 		font-size: .8rem;
 		background: var(--main-color);
 		color: #FFF;
-    	bottom: 0;
-    	left: 0;
+    	bottom: 0px;
+    	left: 0px;
     	width: auto;
     	padding: 20px 10px;
+    	/* bottom: -10px;
+    	left: -10px;
+    	width: auto;
+    	padding: 30px 20px;
+    	border-radius: 10px; */
 	}
 
 	/* add css */
@@ -134,5 +139,7 @@ export default {
 	  width: 80%;
 	  margin-top: 60px;
 	}
+
+	
 
 </style>

@@ -7,22 +7,18 @@
 				<div class="col-lg-8 col-md-10 mx-auto">
 					<section id="wagonr" class="contents-area">
 						<h4 class="weight300">Suzuki WagonR 1998</h4>
-						<div id="main-slide" class="secWrap">
+						<div class="secWrap">
 							<slick ref="slick" class="slick-outer">
 								<div class="section-contets">
-									<div class="imgBox"><img src="img/index/about-img.jpg" alt="about-img"></div>
+									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-01.jpg" alt="wagonr-pso2-01-img"></div>
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-02.jpg" alt="wagonr-pso2-02-img"></div>
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-03.jpg" alt="wagonr-pso2-03-img"></div>
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-04.jpg" alt="wagonr-pso2-04-img"></div>
+									</slick>
 									<div class="textBox weight300">
-										<p class="meta">2021 / 09 / 21</p>
-										<p>Charactor : YuzukiRoa (NIJISANJI)</p>
-										<p> </p>
-										<p>今回のデザインは</p>
-									</div>
-								</div>
-								<div class="section-contets">
-									<div class="imgBox"><img src="img/index/about-img.jpg" alt="about-img"></div>
-									<div class="textBox weight300">
-										<p class="meta">2021 / 09 / 21</p>
-										<p>Charactor : YuzukiRoa (NIJISANJI)</p>
+										<p class="meta">2019 / 03 / 13</p>
+										<p>Charactor : イオ & オリキャラ (PSO2)</p>
 										<p> </p>
 										<p>今回のデザインは</p>
 									</div>
@@ -59,7 +55,14 @@
 					arrows: false,
 					dots: false,
 					autoplay: true,
-					autoplaySpeed: 4000,
+					infinity: true,
+					autoplaySpeed: 6000,
+					fade: true,
+					speed: 500,
+					swipe: false,
+					lazyLoad: 'progressive',
+					pauseOnFocus: false,
+			        pauseOnHover: false
 				}
 			}
 		},
@@ -72,49 +75,54 @@
 
 	/* slick */
 
-.slick-arrow {
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 0;
-	height: 0;
-	margin: auto;
-	padding: 0;
-	background: none;
-	background-color: #333;
-	-webkit-appearance: none;
-	   -moz-appearance: none;
-	        appearance: none;
-	white-space: nowrap;
-	text-indent: 100%;
-	outline: none;
-}
+	.slick-arrow {
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 0;
+		height: 0;
+		margin: auto;
+		padding: 0;
+		background: none;
+		background-color: #333;
+		-webkit-appearance: none;
+		   -moz-appearance: none;
+		        appearance: none;
+		white-space: nowrap;
+		text-indent: 100%;
+		outline: none;
+	}
 
-button.slick-prev.slick-arrow {
-	left: -25px;
-	border-top: 10px solid var(--back-color);
-	border-right: 10px solid var(--sub-color);
-	border-bottom: 10px solid var(--back-color);
-	border-left: 0;
-}
+	button.slick-prev.slick-arrow {
+		left: -25px;
+		border-top: 10px solid var(--back-color);
+		border-right: 10px solid var(--sub-color);
+		border-bottom: 10px solid var(--back-color);
+		border-left: 0;
+	}
 
-button.slick-next.slick-arrow {
-	right: -25px;
-	border-top: 10px solid var(--back-color);
-	border-right: 0;
-	border-bottom: 10px solid var(--back-color);
-	border-left: 10px solid var(--sub-color);
-}
+	button.slick-next.slick-arrow {
+		right: -25px;
+		border-top: 10px solid var(--back-color);
+		border-right: 0;
+		border-bottom: 10px solid var(--back-color);
+		border-left: 10px solid var(--sub-color);
+	}
 
-.container {
-	max-width: 980px;
-	margin: auto;
-	margin-top: 50px;
-}
+	.slick-slider img,
+	.slick-slider video {
+		width: inherit;
+		/* border-radius: 10px; */
+	}
 
-.textBox .meta {
-	text-align: right;
-}
+	.container {
+		max-width: 980px;
+		margin: auto;
+	}
+
+	.textBox .meta {
+		text-align: right;
+	}
 
 </style>
