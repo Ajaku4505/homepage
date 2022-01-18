@@ -4,7 +4,9 @@
   <nav class="navbar fixed-top" id="mainNav">
     <div class="header-menu">
       <div class="header-titile">
-        <img v-bind:src="img_url" alt="KOKI Ajaku">
+        <a v-bind:href="url">
+          <img v-bind:src="img_url" alt="KOKI Ajaku">
+        </a>
       </div>
       <div class="header-sns">
         <a href="https://www.instagram.com/ajaku_ku/?hl=ja" target="_blank">
@@ -38,6 +40,7 @@ export default {
   data () {
     return {
       img_url: '../img/index/header.png',
+      url: '/',
     }
   },
 }
