@@ -2,14 +2,17 @@
 
   <transition name="modal" appear>
 		<div class="modal-overlay" @click.self="$emit('close')">
-			<div class="modal-window">
+			<div id="modal" class="modal-window">
 				<div class="modal-content">
 					<h4 class="weight300">{{ val.title }}</h4>
-					<img :src="val.img_src">
+					<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
+						<img :src="val.img_01_src">
+						<img :src="val.img_02_src">
+					</slick>
 					<div class="textBox weight300">
 						<p>{{ val.desc }}</p>
 						<div class="close" @click="$emit('close')"></div>
-				</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -19,11 +22,35 @@
 
 <script>
 
-  export default {
-    name: 'Modal',
-    props: ['val'],
+	import Slick from 'vue-slick'
+	import '../node_modules/slick-carousel/slick/slick.css'
 
-  }
+	export default {
+
+		name: 'Modal',
+		props: ['val'],
+
+		components: { Slick },
+
+		data(){
+			return {
+    			slick_imgOptions:{
+					arrows: false,
+					dots: false,
+					autoplay: true,
+					infinity: true,
+					autoplaySpeed: 3000,
+					fade: true,
+					speed: 600,
+					swipe: false,
+					lazyLoad: 'progressive',
+					pauseOnFocus: false,
+			        pauseOnHover: false
+				}
+			}
+		},
+
+	}
 
 </script>
 
@@ -116,6 +143,11 @@
 	.modal-content h4 {
 		margin: 0;
 		margin-bottom: 10px;
+	}
+
+	.flex-area.grid  #modal img:hover {
+		-webkit-transform: scale(1) translate3d(0, 0, 0);
+		        transform: scale(1) translate3d(0, 0, 0);
 	}
 
 </style>

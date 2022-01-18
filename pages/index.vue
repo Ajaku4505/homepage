@@ -17,7 +17,7 @@
 						<div class="mainvisual">
 							<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 								<img src="img/index/mv_01.jpg" alt="mainvisual01">
-								<img src="img/index/mv_01.jpg" alt="mainvisual02">
+								<img src="img/index/mv_02.jpg" alt="mainvisual02">
 							</slick>
 						</div>
 					</div>
@@ -309,7 +309,7 @@
 
 	header .mainvisual img {
 		width: 100%;
-		height: 81vh;
+		height: 86.5vh;
 		object-fit: cover;
 	}
 

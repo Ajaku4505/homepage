@@ -9,7 +9,7 @@
 						<div class="secWrap">
 							<div class="flex-area grid">
 								<div class="section-contets" v-for="item in items">
-									<img @click="openModal(item)" :src="item.img_src" alt="design_item">
+									<img @click="openModal(item)" :src="item.img_01_src" alt="design_item">
 								</div>
 								<modal :val="postItem" v-show="showContent" @close="closeModal" />
 							</div>
@@ -67,15 +67,38 @@
 				items: [
 					{ 
 						id: 1,
-						desc: '課題で作成した美容室のHPです。',
-						title: 'コーディング(レスポンシブ対応)',
-						img_src: require('../static/img/design/design-img_01.jpg'),
+						desc: 'ホロライブ 星街すいせいちゃんが可愛かったのとブルーのデザインを作ってみたいということで製作しました。クリアブルーな色味で表現しました',
+						title: 'スクエアステッカー(ホロライブ 星街すいせい)',
+						img_01_src: require('../static/img/design/design-img_01-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_01-2.jpg'),
 					},
 					{ 
 						id: 2, 
 						desc: '実案件で作成したコーポレートサイトです。',
+						title: 'スクエアステッカー(ホロライブ 不知火フレア)',
+						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
+					},
+					{ 
+						id: 3, 
+						desc: '実案件で作成したコーポレートサイトです。',
 						title: 'コーディング(レスポンシブ対応)',
-						img_src: require('../static/img/design/design-img_02.jpg'),
+						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
+					},
+					{ 
+						id: 4, 
+						desc: '実案件で作成したコーポレートサイトです。',
+						title: 'コーディング(レスポンシブ対応)',
+						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
+					},
+					{ 
+						id: 5, 
+						desc: '実案件で作成したコーポレートサイトです。',
+						title: 'コーディング(レスポンシブ対応)',
+						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
 					},
 
 				]
@@ -175,7 +198,7 @@
 		        transform: scale(1) translate3d(0, 0, 0);
 	}
 
-	.section-contets img:hover {
+	.flex-area.grid img:hover {
 		-webkit-transform: scale(1.2) translate3d(0, 0, 0);
 		        transform: scale(1.2) translate3d(0, 0, 0);
 	}
