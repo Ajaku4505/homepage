@@ -68,15 +68,13 @@
 					{ 
 						id: 1,
 						desc: '課題で作成した美容室のHPです。',
-						range: 'コーディング(レスポンシブ対応)',
-						lang: 'HTML, CSS(Sass)',
+						title: 'コーディング(レスポンシブ対応)',
 						img_src: require('../static/img/design/design-img_01.jpg'),
 					},
 					{ 
 						id: 2, 
 						desc: '実案件で作成したコーポレートサイトです。',
-						range: 'コーディング(レスポンシブ対応)',
-						lang: 'HTML, CSS(Sass)',
+						title: 'コーディング(レスポンシブ対応)',
 						img_src: require('../static/img/design/design-img_02.jpg'),
 					},
 
@@ -160,17 +158,26 @@
 	#design .flex-area.grid .section-contets {
 		width: 316px;
 		height: 316px;
-		   object-fit: cover;
-		-o-object-fit: cover;
 		margin-bottom: 20px;
+		overflow: hidden;
 	}
 
 	.flex-area.grid img {
 		width: 100%;
 		height: 100%;
-		   object-fit: cover;
-
 		-o-object-fit: cover;
+		   object-fit: cover;
+		-webkit-transition: -webkit-transform 800ms cubic-bezier(.23, 1, .32, 1);
+		        transition: -webkit-transform 800ms cubic-bezier(.23, 1, .32, 1);
+		        transition:         transform 800ms cubic-bezier(.23, 1, .32, 1);
+		        transition:         transform 800ms cubic-bezier(.23, 1, .32, 1), -webkit-transform 800ms cubic-bezier(.23, 1, .32, 1);
+		-webkit-transform: scale(1) translate3d(0, 0, 0);
+		        transform: scale(1) translate3d(0, 0, 0);
+	}
+
+	.section-contets img:hover {
+		-webkit-transform: scale(1.2) translate3d(0, 0, 0);
+		        transform: scale(1.2) translate3d(0, 0, 0);
 	}
 
 </style>
