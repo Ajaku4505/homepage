@@ -4,15 +4,16 @@
 		<div class="modal-overlay" @click.self="$emit('close')">
 			<div id="modal" class="modal-window">
 				<div class="modal-content">
-					<h4 class="weight300">{{ val.title }}</h4>
-					<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
+					<h4 v-if="val.title" class="weight300">{{ val.title }}</h4>
+					<slick ref="slick" class="slick-outer" :options="slick_imgOptions" v-if="val.img_02_src">
 						<img :src="val.img_01_src">
 						<img :src="val.img_02_src">
 					</slick>
-					<div class="textBox weight300">
+					<img v-else :src="val.img_01_src">
+					<div v-if="val.desc" class="textBox weight300">
 						<p>{{ val.desc }}</p>
-						<div class="close" @click="$emit('close')"></div>
 					</div>
+						<div class="close" @click="$emit('close')"></div>
 				</div>
 			</div>
 		</div>

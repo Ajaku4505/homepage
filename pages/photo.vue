@@ -8,45 +8,10 @@
 					<section id="photo" class="contents-area">
 						<div class="secWrap">
 							<div class="flex-area grid">
-								<div class="section-contets">
-									<img src="img/design/design-img_01.jpg" alt="">
+								<div class="section-contets" v-for="item in reverseItems">
+									<img @click="openModal(item)" :src="item.img_01_src" alt="photo_item">
 								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_02.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_01.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_02.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_01.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_02.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_01.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_02.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_01.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_02.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_01.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_02.jpg" alt="">
-								</div>
-								<div class="section-contets">
-									<img src="img/design/design-img_01.jpg" alt="">
-								</div>
+								<modal :val="postItem" v-show="showContent" @close="closeModal" />
 							</div>
 						</div>
 					</section>
@@ -61,6 +26,7 @@
 
 	import Slick from 'vue-slick'
 	import '../node_modules/slick-carousel/slick/slick.css'
+	import Modal from '~/components/modal.vue'
 
 	export default {
 		layout: "subpage",
@@ -90,6 +56,54 @@
 				}
 			}
 		},
+
+		components: { Modal },
+
+		data () {
+			return {
+				showContent: false,
+				postItem: "",
+				items: [
+					{	id: 1,	img_01_src: require('../static/img/photo/photo-img_01.jpg'),	},
+					{	id: 2,	img_01_src: require('../static/img/photo/photo-img_02.jpg'),	},
+					{	id: 3,	img_01_src: require('../static/img/photo/photo-img_03.jpg'),	},
+					{	id: 4,	img_01_src: require('../static/img/photo/photo-img_04.jpg'),	},
+					{	id: 5,	img_01_src: require('../static/img/photo/photo-img_05.jpg'),	},
+					{	id: 6,	img_01_src: require('../static/img/photo/photo-img_06.jpg'),	},
+					{	id: 7,	img_01_src: require('../static/img/photo/photo-img_07.jpg'),	},
+					{	id: 8,	img_01_src: require('../static/img/photo/photo-img_08.jpg'),	},
+					{	id: 9,	img_01_src: require('../static/img/photo/photo-img_09.jpg'),	},
+					{	id: 10,	img_01_src: require('../static/img/photo/photo-img_10.jpg'),	},
+					{	id: 11,	img_01_src: require('../static/img/photo/photo-img_11.jpg'),	},
+					{	id: 12,	img_01_src: require('../static/img/photo/photo-img_12.jpg'),	},
+					{	id: 13,	img_01_src: require('../static/img/photo/photo-img_13.jpg'),	},
+					{	id: 14,	img_01_src: require('../static/img/photo/photo-img_14.jpg'),	},
+					{	id: 15,	img_01_src: require('../static/img/photo/photo-img_15.jpg'),	},
+					{	id: 16,	img_01_src: require('../static/img/photo/photo-img_16.jpg'),	},
+					{	id: 17,	img_01_src: require('../static/img/photo/photo-img_17.jpg'),	},
+					{	id: 18,	img_01_src: require('../static/img/photo/photo-img_18.jpg'),	},
+					{	id: 19,	img_01_src: require('../static/img/photo/photo-img_19.jpg'),	},
+					{	id: 20,	img_01_src: require('../static/img/photo/photo-img_20.jpg'),	},
+
+				]
+			}
+	    },
+
+		computed: {
+    		reverseItems() {
+      			return this.items.slice().reverse();
+    		},
+    	},
+
+	    methods: {
+			openModal(item) {
+				this.showContent = true
+				this.postItem = item
+			},
+			closeModal () {
+				this.showContent = false
+			}
+	    }
 
 	}
 
@@ -161,14 +175,25 @@
 		   object-fit: cover;
 		-o-object-fit: cover;
 		margin-bottom: 20px;
+		overflow: hidden;
 	}
 
 	.flex-area.grid img {
 		width: 100%;
 		height: 100%;
-		   object-fit: cover;
-
 		-o-object-fit: cover;
+		   object-fit: cover;
+		-webkit-transition: -webkit-transform 800ms cubic-bezier(.23, 1, .32, 1);
+		        transition: -webkit-transform 800ms cubic-bezier(.23, 1, .32, 1);
+		        transition:         transform 800ms cubic-bezier(.23, 1, .32, 1);
+		        transition:         transform 800ms cubic-bezier(.23, 1, .32, 1), -webkit-transform 800ms cubic-bezier(.23, 1, .32, 1);
+		-webkit-transform: scale(1) translate3d(0, 0, 0);
+		        transform: scale(1) translate3d(0, 0, 0);
+	}
+
+	.flex-area.grid img:hover {
+		-webkit-transform: scale(1.2) translate3d(0, 0, 0);
+		        transform: scale(1.2) translate3d(0, 0, 0);
 	}
 
 </style>
