@@ -46,7 +46,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://ajaku.sakura.ne.jp/',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
