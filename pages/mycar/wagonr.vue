@@ -127,4 +127,9 @@
 		text-align: right;
 	}
 
+	.textBox .description {
+		margin-top: 20px;
+    	line-height: 1.5;
+	}
+
 </style>

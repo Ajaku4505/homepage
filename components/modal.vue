@@ -73,10 +73,14 @@
 	.modal-window {
 	  width: 70%;
 	  max-width: 1200px;
-	  max-height: 70%;
+	  max-height: 90%;
 	  overflow: scroll;
 	  background-color: var(--back-color);
 	  position: relative;
+	}
+
+	#photo .modal-window {
+	  max-height: none;
 	}
 
 	.modal-content {
@@ -144,6 +148,13 @@
 	.modal-content h4 {
 		margin: 0;
 		margin-bottom: 10px;
+	}
+
+	.modal-content .textBox {
+		white-space: pre-line;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-size: .8rem;
 	}
 
 	.flex-area.grid  #modal img:hover {
