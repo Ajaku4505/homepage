@@ -67,38 +67,38 @@
 				items: [
 					{ 
 						id: 1,
-						desc: 'ホロライブ 星街すいせいちゃんが可愛かったのとブルーのデザインを作ってみたいということで製作しました。クリアブルーな色味で表現しました',
-						title: 'スクエアステッカー(ホロライブ 星街すいせい)',
-						img_01_src: require('../static/img/design/design-img_01-1.jpg'),
-						img_02_src: require('../static/img/design/design-img_01-2.jpg'),
-					},
-					{ 
-						id: 2, 
-						desc: '実案件で作成したコーポレートサイトです。',
 						title: 'スクエアステッカー(ホロライブ 不知火フレア)',
 						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
 						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
+						desc: 'ふーたんのメンタルチェンソーを100万回聴きながらエネルギッシュな雰囲気を出したいと思ってデザインしました 元気っ娘マジでかわいい',
+					},
+					{ 
+						id: 2, 
+						title: 'スクエアステッカー(ホロライブ 星街すいせい)',
+						img_01_src: require('../static/img/design/design-img_01-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_01-2.jpg'),
+						desc: 'すいちゃんは今日も可愛かったのとブルーのデザインを作ってみたいということで製作しました。クリアブルーな色味で表現しました NotﾎﾞｲﾝﾎﾞｲﾝYesﾍﾟﾀﾝﾍﾟﾀﾝ',
 					},
 					{ 
 						id: 3, 
-						desc: '実案件で作成したコーポレートサイトです。',
 						title: 'コーディング(レスポンシブ対応)',
 						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
 						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
+						desc: '実案件で作成したコーポレートサイトです。',
 					},
 					{ 
 						id: 4, 
-						desc: '実案件で作成したコーポレートサイトです。',
 						title: 'コーディング(レスポンシブ対応)',
 						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
 						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
+						desc: '実案件で作成したコーポレートサイトです。',
 					},
 					{ 
 						id: 5, 
-						desc: '実案件で作成したコーポレートサイトです。',
-						title: 'コーディング(レスポンシブ対応)',
+						title: '痛車デザイン（Suzuki WagonR）',
 						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
 						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
+						desc: '車のデザインとしては初めて制作しました。<br>当時SEGAの"PhantasyStar Online 2"にどハマりしていたのと、デザインとして広いキャンパスを用いてデザインしたかったのがきっかけでした。<br>サイドのデザインは仮想空間を表現しオリジナルキャラが前に向かって進んでいるようなデザインにしました。仮想空間を表現するため、ローディング画面の青を取り入れ、マテリアルオブジェを背面に散りばめました。',
 					},
 
 				]
