@@ -67,7 +67,9 @@
 		left: 0;
 		height: 100%;
 		width: 100%;
-		background: rgba(0, 0, 0, 0.3);
+		background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
 	}
 
 	.modal-window {
@@ -77,6 +79,7 @@
 	  overflow: scroll;
 	  background-color: var(--back-color);
 	  position: relative;
+	  box-shadow: 0 0px 20px 0 rgb(47 72 88 / 20%);
 	}
 
 	#photo .modal-window {
