@@ -107,7 +107,6 @@
 
 	}
 
-
 </script>
 
 <style>
@@ -158,7 +157,7 @@
 		margin: auto;
 	}
 
-	#subpage section {
+	#photo section {
 		width: 100%;
 	}
 
@@ -195,6 +194,7 @@
 		-webkit-transform: scale(1.2) translate3d(0, 0, 0);
 		        transform: scale(1.2) translate3d(0, 0, 0);
 	}
+
 
 	@media screen and (max-width:768px) {
 

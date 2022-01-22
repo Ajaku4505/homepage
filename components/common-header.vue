@@ -393,18 +393,19 @@ export default {
 	}
 
 	#menu li {
-		margin: 15px 0;
+		margin: 20px 0;
 	}
 
 	#menu h4 {
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 		font-size: 1.25rem;
 		line-height: 1;
 	}
 
-		#menu p {
-		font-size: .8rem
-		}
+	#menu p {
+		font-size: .8rem;
+		margin-bottom: 5px;
+	}
 
 	#menuToggle input:checked ~ ul {
 		overflow: scroll;

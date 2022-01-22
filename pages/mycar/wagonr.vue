@@ -87,29 +87,12 @@
 		margin: auto;
 		padding: 0;
 		background: none;
-		background-color: #333;
 		-webkit-appearance: none;
 		   -moz-appearance: none;
 		        appearance: none;
 		white-space: nowrap;
 		text-indent: 100%;
 		outline: none;
-	}
-
-	button.slick-prev.slick-arrow {
-		left: -25px;
-		border-top: 10px solid var(--back-color);
-		border-right: 10px solid var(--sub-color);
-		border-bottom: 10px solid var(--back-color);
-		border-left: 0;
-	}
-
-	button.slick-next.slick-arrow {
-		right: -25px;
-		border-top: 10px solid var(--back-color);
-		border-right: 0;
-		border-bottom: 10px solid var(--back-color);
-		border-left: 10px solid var(--sub-color);
 	}
 
 	.slick-slider img,
@@ -129,7 +112,20 @@
 
 	.textBox .description {
 		margin-top: 20px;
-    	line-height: 1.5;
+		font-size: .8rem;
+		line-height: 1.5;
+	}
+
+	@media screen and (max-width:768px) {
+
+		.section-contets .textBox {
+			margin-top: 20px;
+		}
+
+		.textBox .meta {
+		    margin-bottom: 10px;
+		}
+
 	}
 
 </style>

@@ -40,10 +40,10 @@
 									<h2 class="weight500">意味のないことかもしれない<br>見た人の気持ちが少しでも変われば－</h2>
 									<p>何のためにデザインしたりカメラを回してるのかっていうと</p>
 									<p>やっぱ言い表せないんですけど楽しいんです。</p>
-									<p class="space"></p>
+									<p class="space"></p><br class="sp">
 									<p>パチンコで大当たりしたり、好きな本を読んだり、</p>
-									<p>スポーツで汗を流すのと同じような楽しさだと僕は思います。</p>
-									<p class="space"></p>
+									<p>スポーツで汗を流すのと同じような楽しさだと僕は思います。</p><br class="sp">
+									<p class="space"></p><br class="sp">
 									<p>それと後世に自分が何してどんな人だったかくらいは</p>
 									<p>残るようにしていたいなってのも本音です笑</p>
 								</div>
@@ -62,8 +62,8 @@
 							<div class="section-contets">
 								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged02, once: true}' v-bind:class='{active:isVisible02}'><img src="img/index/mycar-img.jpg" alt="mycar-img"></div>
 								<div class="textBox weight300">
-									<p class="meta">2021 / 09 / 21</p>
-									<p>Honda AccordWagon 1994</p>
+									<p class="meta">2021 / 09 / 21</p><br class="sp">
+									<p>Honda AccordWagon 1994</p><br class="sp">
 									<p>Charactor : YuzukiRoa (NIJISANJI)</p>
 								</div>
 								<div class="link">
@@ -90,9 +90,9 @@
 									</div>
 								</div>
 								<div class="textBox weight300">
-									<p>箱ステから痛車のデザインなんでも楽しそうなことはやってます</p>
-									<p>強いていえば、アパレルデザインまだやったことないですね...</p>
-									<p class="space"></p>
+									<p>箱ステから痛車のデザインなんでも楽しそうなことはやってます</p><br class="sp">
+									<p>強いていえば、アパレルデザインまだやったことないですね...</p><br class="sp">
+									<p class="space"></p><br class="sp">
 									<p>一番デザインでこだわってるのはファーストインパクトと色の使い方です</p>
 								</div>
 								<div class="link">
@@ -131,8 +131,8 @@
 									</div>
 								</div>
 								<div class="textBox weight300">
-									<p>カメラはフルサイズのNikon D750とマイクロフォーサーズのOLYMPUS E-M10 Markiiを</p>
-									<p>愛用しています。なんで写真が好きなのかと聞かれると美しいからとしか言えません笑</p>
+									<p>カメラはフルサイズのNikon D750とマイクロフォーサーズのOLYMPUS E-M10 Markiiを愛用しています</p>
+									<p><br class="sp">なんで写真が好きなのかと聞かれると美しいからとしか言えません笑</p>
 								</div>
 								<div class="link">
 									<router-link class="nav-link" to="photo">
@@ -526,6 +526,17 @@
 		margin-bottom: 40px;
 	}
 
+	.section-contets .textBox > h2,
+	.section-contets .textBox > p {
+		line-height: 1.25;
+		letter-spacing: .1em;
+	}
+
+	.section-contets .textBox > p {
+		line-height: 1.5;
+		display: inline;
+	}
+
 	.imgBox img {
 		width: 100%;
 	}
@@ -548,9 +559,11 @@
 	#about .imgBox {
 		position: relative;
 		right: 0;
-		margin-bottom: 20px;
 	}
 
+	#about .textBox {
+		margin-bottom: 20px;
+	}
 
 	/* mycar */
 

@@ -1,6 +1,6 @@
 <template>
 
-  <transition name="modal" appear>
+	<transition name="modal" appear>
 		<div class="modal-overlay" @click.self="$emit('close')">
 			<div id="modal" class="modal-window">
 				<div class="modal-content">
@@ -35,7 +35,7 @@
 
 		data(){
 			return {
-    			slick_imgOptions:{
+					slick_imgOptions:{
 					arrows: false,
 					dots: false,
 					autoplay: true,
@@ -46,7 +46,7 @@
 					swipe: false,
 					lazyLoad: 'progressive',
 					pauseOnFocus: false,
-			        pauseOnHover: false
+							pauseOnHover: false
 				}
 			}
 		},
@@ -68,22 +68,22 @@
 		height: 100%;
 		width: 100%;
 		background: rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5px );
+		backdrop-filter: blur( 5px );
+		-webkit-backdrop-filter: blur( 5px );
 	}
 
 	.modal-window {
-	  width: 70%;
-	  max-width: 1200px;
-	  max-height: 90%;
-	  overflow: scroll;
-	  background-color: var(--back-color);
-	  position: relative;
-	  box-shadow: 0 0px 20px 0 rgb(47 72 88 / 20%);
+		width: 70%;
+		max-width: 1200px;
+		max-height: 90%;
+		overflow: scroll;
+		background-color: var(--back-color);
+		position: relative;
+		box-shadow: 0 0px 20px 0 rgb(47 72 88 / 20%);
 	}
 
 	#photo .modal-window {
-	  max-height: none;
+		max-height: none;
 	}
 
 	.modal-content {
@@ -120,9 +120,9 @@
 		width: 30px;/*枠の大きさ*/
 		height: 30px;/*枠の大きさ*/
 		position: absolute;
-    top: 10px;
-    right: 5px;
-    cursor: pointer;
+		top: 10px;
+		right: 5px;
+		cursor: pointer;
 	}
 
 	.close::before, 
@@ -155,14 +155,45 @@
 
 	.modal-content .textBox {
 		white-space: pre-line;
-    line-height: 1.5;
-    margin-top: 10px;
-    font-size: .8rem;
+		line-height: 1.5;
+		margin-top: 10px;
+		font-size: .8rem;
 	}
 
 	.flex-area.grid  #modal img:hover {
 		-webkit-transform: scale(1) translate3d(0, 0, 0);
-		        transform: scale(1) translate3d(0, 0, 0);
+						transform: scale(1) translate3d(0, 0, 0);
 	}
+
+	@media screen and (max-width:768px) {
+
+		.modal-window {
+			width: 90%;
+		}
+
+		.modal-content {
+			padding: 20px;
+		}
+
+		.modal-content h4 {
+			font-size: .8rem;
+		}
+
+		.modal-content .textBox {
+			font-size: .6rem;
+		}
+
+		.close {
+			width: 15px;
+			height: 15px;
+		}
+
+		.close::before, 
+		.close::after {
+			height: 1px;
+		}
+
+	}
+
 
 </style>

@@ -142,7 +142,20 @@
 
 	.textBox .description {
 		margin-top: 20px;
-    	line-height: 1.5;
+		font-size: .8rem;
+		line-height: 1.5;
+	}
+
+	@media screen and (max-width:768px) {
+
+		.section-contets .textBox {
+			margin-top: 20px;
+		}
+
+		.textBox .meta {
+		    margin-bottom: 10px;
+		}
+
 	}
 
 </style>
