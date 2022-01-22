@@ -170,6 +170,54 @@ export default {
 	  overflow: scroll;
 	}
 
+@media screen and (max-width:768px) {
 
+	.flex-area {
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+		height: auto;
+	}
+
+	.main-contents {
+		width: 100%;
+		margin-top: 60px;
+	}
+
+	#subpage footer {
+		width: 100%;
+	}
+
+	#subpage section {
+		width: 80%;
+	}
+
+	#subpage .flex-contents .footer-menu {
+		margin: 20px;
+	}
+
+	#subpage .flex-contents .footer-menu .sub_menu {
+		width: 100%;
+	}
+
+	#subpage .footer-menu li,
+	#subpage .footer-menu.sub_menu {
+		width: 100%;
+	}
+
+	#subpage .flex-contents .footer-menu .sub_menu li {
+	    margin-bottom: 20px;
+	    margin-left: 10px;
+	    font-size: .8rem;
+	}
+
+	#subpage .flex-contents .copyright {
+		width: 100%;
+		padding: 10px;
+		position: relative;
+	}
+
+
+}
 
 </style>

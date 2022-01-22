@@ -113,4 +113,41 @@ export default {
 		margin-bottom: 0;
 	}
 
+
+@media screen and (max-width:768px) {
+
+	footer .flex-contents {
+	    display: grid;
+	    text-align: center;
+	}
+
+	.flex-contents .footer-menu {
+		display: flex;
+		grid-row: 2;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%;
+		margin: 55px 0;
+	}
+
+	footer .flex-contents > ul, 
+	footer .flex-contents > div {
+		width: 100%;
+	}
+
+	.flex-contents .footer-profile {
+		margin-top: 50px;
+	}
+
+	.flex-contents .footer-menu li {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+
+	.flex-contents .copyright {
+		justify-content: center;
+	}
+
+}
+
 </style>

@@ -196,4 +196,23 @@
 		        transform: scale(1.2) translate3d(0, 0, 0);
 	}
 
+	@media screen and (max-width:768px) {
+
+		section#photo {
+			width: 90%;
+		}
+
+		.flex-area.grid {
+			flex-direction: inherit;
+			margin-bottom: 20px;
+		}
+
+		#photo .flex-area.grid .section-contets {
+			width: calc(100% / 2 - 5px);
+			height: 180px;
+			margin-bottom: 10px;
+		}
+
+	}
+
 </style>

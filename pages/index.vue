@@ -341,10 +341,10 @@
 	}
 
 	.section-text h1.section-title {
+		font-family: "Ropa Sans", sans-serif;
 		display: inline-block;
 		position: relative;
 		font-size: 6rem;
-		font-family: 'Ropa Sans', sans-serif;
 	}
 
 	.section-text h1.section-title::after {
@@ -480,7 +480,6 @@
 
 	#photo .imgBox > div {
 		width: calc(100% / 3 - 10px);
-		width: calc(100% / 3 - 10px);
 		height: calc(100% / 3 - 10px);
 		margin-bottom: 20px;
 	}
@@ -490,6 +489,124 @@
 		height: 100%;
 		object-fit: cover;
 	}
+
+
+@media screen and (max-width:768px) {
+
+	header .mainvisual {
+		width: calc(100% - 50px);
+		height: calc(100% - 50px);
+		transform: translateY(-42%) translateX(-50%);
+	}
+
+	header .catch-copy {
+		bottom: 8%;
+		left: 10%;
+		line-height: 1.5;
+	}
+
+
+	.container {
+		width: 90%;
+	}
+
+	section {
+		margin: 100px 0;
+	}
+
+	.section-text h1.section-title {
+		font-size: 4rem;
+	}
+
+	.section-text h1.section-title::after {
+		top: 38px;
+	}
+
+	.section-text {
+		margin-bottom: 40px;
+	}
+
+	.imgBox img {
+		width: 100%;
+	}
+
+
+	/* about */
+
+	#about h1.section-title {
+		left: 100px;
+	}
+
+	#about h1.section-title::after {
+		left: 170px;
+	}
+
+	#about .section-contets {
+		display: block;
+	}
+
+	#about .imgBox {
+		position: relative;
+		right: 0;
+		margin-bottom: 20px;
+	}
+
+
+	/* mycar */
+
+	#mycar .section-contets {
+		width: 100%;
+		margin: auto;
+	}
+
+
+	/* design */
+
+	#design h1.section-title {
+		left: 0;
+	}
+
+	#design h1.section-title::after {
+		left: 190px;
+	}
+
+	#design .imgBox {
+		display: block;
+		justify-content: space-between;
+		margin-bottom: 0;
+	}
+
+	.imgBox.multiple .active {
+	    margin-bottom: 20px;
+	}
+
+	#design .imgBox img {
+		width: 100%;
+		height: 300px;
+		   object-fit: cover;
+		-o-object-fit: cover;
+	}
+
+
+	/* photo */
+
+	.section-subtitle {
+		margin-left: 10px;
+		font-size: 2rem;
+	}
+
+	.section-subtitle img {
+		width: 40%;
+		margin-left: 10px;
+	}
+
+	#photo .imgBox > div {
+		width: calc(100% / 2 - 5px);
+		height: calc(100% / 3 - 10px);
+		margin-bottom: 10px;
+	}
+
+}
 
 
 </style>

@@ -69,18 +69,21 @@
 						id: 1, 
 						title: '痛車デザイン(Phantasy Star Online2 オリキャラ)',
 						img_01_src: require('../static/img/design/design-img_01-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_01-2.jpg'),
 						desc: '車のデザインとしては初めて制作しました\n当時SEGAの"PhantasyStar Online 2"にどハマりしていたのと、デザインとして広いキャンパスを用いてデザインしたかったのがきっかけでした\nサイドのデザインは仮想空間を表現しオリジナルキャラが前に向かって進んでいるようなデザインにしました\n仮想空間を表現するため、ローディング画面の青を取り入れ、マテリアルオブジェを背面に散りばめました',
 					},
 					{ 
 						id: 2, 
 						title: '痛車デザイン(わんことくらそう みかん&虎太郎)',
 						img_01_src: require('../static/img/design/design-img_02-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_02-2.jpg'),
 						desc: 'わんことくらそうが自分の人生を変えたゲームなのでデザインしました\nまだデザインに慣れてなかったのか、キャラの背景をぼかすのに数日かかった上に、\n製作したデータが19000pxとかいうエグい作り方をしてたんだなと実感しました',
 					},
 					{ 
 						id: 3, 
 						title: '痛車デザイン(にじさんじ 夢月ロア)',
 						img_01_src: require('../static/img/design/design-img_03-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_03-2.jpg'),
 						desc: 'いつの間にかVTuberにハマってしまってデザインしました\n当時VTuber痛車もほっとんど居なかったので、デザインは苦労しました\nしばらく迷った末に画像のような形が出来上がりました',
 					},
 					{ 
@@ -135,6 +138,7 @@
 						id: 12, 
 						title: 'スクエアステッカー(にじさんじ 夢月ロア)',
 						img_01_src: require('../static/img/design/design-img_12-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_12-2.jpg'),
 						desc: '箱ステ作りたい衝撃に駆られたときに作ったものです\nインスタ風のおしゃれな箱ステ作ってみました\nよーく見ると細かい部分にロアちゃんと関連している内容が入ってたりと小ネタが満載です',
 					},
 					{ 
@@ -153,12 +157,14 @@
 						id: 15, 
 						title: '痛車デザイン(アークナイツ 陈 "チェン")',
 						img_01_src: require('../static/img/design/design-img_15-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_15-2.jpg'),
 						desc: 'イベント1週間前に急遽デザインしたものです\n元々はカラーで印刷する予定でしたが、モノトーンモノトーンも見てみたいと言われ作ったのがきっかけでした\n施工後は白と黒でパキッとした仕上がりになっており非常に満足していました\n',
 					},
 					{ 
 						id: 16, 
 						title: '痛車デザイン(にじさんじ 夢月ロア)',
 						img_01_src: require('../static/img/design/design-img_16-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_16-2.jpg'),
 						desc: 'デザインで一番苦労した作品です。デザインコンセプトは "ウォールアート" です\n車体に壁を表現し、スプレーアートを重ねることで違和感がないデザインへと仕上がりました\n色数も敢えて増やすことで、鮮やかな形になりました\n特に色にはこだわっており、WEBカラーより印刷物ではなかなか出せないであろう色を選びました',
 					},
 					{ 
@@ -267,7 +273,7 @@
 		margin: auto;
 	}
 
-	#subpage section {
+	#design section {
 		width: 100%;
 	}
 
@@ -301,6 +307,26 @@
 	.flex-area.grid img:hover {
 		-webkit-transform: scale(1.2) translate3d(0, 0, 0);
 		        transform: scale(1.2) translate3d(0, 0, 0);
+	}
+
+
+	@media screen and (max-width:768px) {
+
+		section#design {
+			width: 90%;
+		}
+
+		.flex-area.grid {
+			flex-direction: inherit;
+			margin-bottom: 20px;
+		}
+
+		#design .flex-area.grid .section-contets {
+			width: calc(100% / 2 - 5px);
+			height: 180px;
+			margin-bottom: 10px;
+		}
+
 	}
 
 </style>
