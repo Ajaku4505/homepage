@@ -9,10 +9,10 @@
 				<div class="col-lg-8 col-md-10 mx-auto">
 					<div class="site-heading">
 						<div class="catch-copy weight100">
-							<p>何かを作り上げたのであれば</p>
-							<p>それは誰もに知られるように</p>
+							<p>0から1を生み出し</p>
+							<p>1を10に磨き上げる</p>
 							<p class="space"></p>
-							<p>記憶に残してほしいもの</p>
+							<p>それがデザイン</p>
 						</div>
 						<div class="mainvisual">
 							<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
@@ -37,15 +37,15 @@
 							</div>
 							<div class="section-contets">
 								<div class="textBox weight300">
-									<h2 class="weight500">意味のないことかもしれない<br>見た人の気持ちが少しでも変われば－</h2>
+									<h2 class="weight500">きれいで素敵なものを生み出し<br>見た人の気持ちが少しでも変われば－</h2>
 									<p>何のためにデザインしたりカメラを回してるのかっていうと</p>
-									<p>やっぱ言い表せないんですけど楽しいんです。</p>
+									<p>やっぱ言い表せないんですけど楽しいんです</p>
 									<p class="space"></p><br class="sp">
-									<p>パチンコで大当たりしたり、好きな本を読んだり、</p>
-									<p>スポーツで汗を流すのと同じような楽しさだと僕は思います。</p><br class="sp">
+									<p>パチンコで大当たりしたり、好きな本を読んだり、スポーツで汗を流す</p>
+									<p>それぞれが感じていることと同じような楽しさだと僕は思っています</p><br class="sp">
 									<p class="space"></p><br class="sp">
-									<p>それと後世に自分が何してどんな人だったかくらいは</p>
-									<p>残るようにしていたいなってのも本音です笑</p>
+									<p>自分が作ったものが誰かのきっかけになるって</p>
+									<p>とても喜ばしいことかなと思ってます笑</p>
 								</div>
 								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged01, once: true}' v-bind:class='{active:isVisible01}'>
 									<img src="img/index/about-img.jpg" alt="about-img">
@@ -90,10 +90,10 @@
 									</div>
 								</div>
 								<div class="textBox weight300">
-									<p>箱ステから痛車のデザインなんでも楽しそうなことはやってます</p><br class="sp">
-									<p>強いていえば、アパレルデザインまだやったことないですね...</p><br class="sp">
+									<p>箱ステ・痛車のデザイン・Webデザイン、なんでも楽しそうなことはやってます</p><br class="sp">
+									<p>強いていえば、アパレルデザインまだやったことないです...</p><br class="sp">
 									<p class="space"></p><br class="sp">
-									<p>一番デザインでこだわってるのはファーストインパクトと色の使い方です</p>
+									<p>デザインで一番こだわってるのはファーストインパクトと色の鮮やかさです</p>
 								</div>
 								<div class="link">
 									<router-link class="nav-link" to="design">
@@ -131,8 +131,8 @@
 									</div>
 								</div>
 								<div class="textBox weight300">
-									<p>カメラはフルサイズのNikon D750とマイクロフォーサーズのOLYMPUS E-M10 Markiiを愛用しています</p>
-									<p><br class="sp">なんで写真が好きなのかと聞かれると美しいからとしか言えません笑</p>
+									<p>カメラはフルサイズのNikon D750とマイクロフォーサーズのOLYMPUS E-M10 Markiiを愛用しています</p><br class="sp">
+									<p>写真もデザインと同じで自分の色が出る面白い趣味だと思っています</p>
 								</div>
 								<div class="link">
 									<router-link class="nav-link" to="photo">
