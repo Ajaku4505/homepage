@@ -169,8 +169,8 @@
 	}
 
 	#photo .flex-area.grid .section-contets {
-		width: 230px;
-		height: 230px;
+		width: 205px;
+		height: 205px;
 		   object-fit: cover;
 		-o-object-fit: cover;
 		margin-bottom: 20px;

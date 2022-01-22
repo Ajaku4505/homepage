@@ -16,17 +16,18 @@ export default {
       { hid: 'description', name: 'description', content: 'This is a portfolio site. From the design, photos and information on the car you are riding are updated from time to time.' || '' },
 
       { hid: 'og:site_name', property: 'og:site_name', content: 'Ajaku Portfolio - Koki' },
+      { hid: 'og:title', property: 'og:title', content: 'Ajaku Portfolio - Koki' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'ajaku.sakura.ne.jp' },
       { hid: 'og:description', property: 'og:description', content: 'This is a portfolio site. From the design, photos and information on the car you are riding are updated from time to time.' },
-      { hid: 'og:image', property: 'og:image', content: 'ajaku.sakura.ne.jp/img/humbnail.jpg' },
+      { hid: 'og:image', property: 'og:image', content: 'https://ajaku.sakura.ne.jp/img/humbnail.jpg' },
 
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' }
     ],
 
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'ajaku.sakura.ne.jp/img/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'img/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap' }
 
     ]

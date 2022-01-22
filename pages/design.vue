@@ -285,8 +285,8 @@
 	}
 
 	#design .flex-area.grid .section-contets {
-		width: 316px;
-		height: 316px;
+		width: 280px;
+		height: 280px;
 		   object-fit: cover;
 		-o-object-fit: cover;
 		margin-bottom: 20px;
