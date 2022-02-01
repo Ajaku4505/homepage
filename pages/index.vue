@@ -303,7 +303,7 @@
 		top: 50%;
 		left: 50%;
 		width: calc(100% - 150px);
-		height: calc(100% - 150px);
+		height: calc(100% - 150px - 58px);
 		transform: translateY(-50%) translateX(-50%);
 	}
 
