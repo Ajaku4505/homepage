@@ -206,13 +206,13 @@
 						img_01_src: require('../static/img/design/design-img_22-1.jpg'),
 						desc: '現在見ていますこのページになります\nデザインのストックが貯まったのと、今後の資産として作成しました\nデザインとコーディングを行い、フレームはnuxt.jsを用いました',
 					},
-					/* { 
+					{ 
 						id: 23,
 						title: 'スクエアステッカー(にじさんじ 葉加瀬冬雪)',
 						img_01_src: require('../static/img/design/design-img_23-1.jpg'),
 						img_02_src: require('../static/img/design/design-img_23-2.jpg'),
 						desc: '"TRiNITY" のアルバムデザインがカッコよかったので深夜テンションで作ってみました\nネオンシティで黄昏ているのを想像して作成しました\nインスタ風に仕上げたため細かい部分にははかちぇに関係する小ネタが多く仕込まれています',
-					}, */
+					},
 
 				]
 			}
