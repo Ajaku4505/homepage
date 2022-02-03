@@ -1,6 +1,3 @@
-const GAID = 'G-YM339ZZT16'
-const GAcode = `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GAID}');`
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -35,21 +32,6 @@ export default {
 
     ],
 
-    script: [
-      {
-        hid: 'GAsrc',
-        src: 'https://www.googletagmanager.com/gtag/js?id=' + GAID
-      },
-      {
-        hid: 'GAcode',
-        innerHTML: GAcode
-      }
-    ],
-    __dangerouslyDisableSanitizersByTagID: {
-      'GAsrc': ['innerHTML'],
-      'GAcode': ['innerHTML']
-    }
-
   },
 
   loading: '~/components/loading.vue',
@@ -77,7 +59,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+
+    ['@nuxtjs/google-gtag', {
+      id: 'G-YM339ZZT16',
+      debug: true,
+    }]
+    
   ],
 
   sitemap: {
