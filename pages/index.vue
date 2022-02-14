@@ -532,7 +532,10 @@
 		letter-spacing: .1em;
 	}
 
-	.section-contets .textBox > p {
+	#about .section-contets .textBox > p,
+	#mycar .section-contets .textBox > p,
+	#design .section-contets .textBox > p,
+	#photo .section-contets .textBox > p {
 		line-height: 1.5;
 		display: inline;
 	}
