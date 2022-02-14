@@ -127,7 +127,7 @@
 										<img src="img/index/photo-img_05.jpg" alt="photo-05">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_01.jpg" alt="photo-06">
+										<img src="img/index/photo-img_06.jpg" alt="photo-06">
 									</div>
 								</div>
 								<div class="textBox weight300">
@@ -532,7 +532,10 @@
 		letter-spacing: .1em;
 	}
 
-	.section-contets .textBox > p {
+	#about .section-contets .textBox > p,
+	#mycar .section-contets .textBox > p,
+	#design .section-contets .textBox > p,
+	#photo .section-contets .textBox > p {
 		line-height: 1.5;
 		display: inline;
 	}
