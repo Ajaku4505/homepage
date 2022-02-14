@@ -12,7 +12,7 @@
 								<div class="section-contets">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><video autoplay="" loop="" muted="" playsinline="" width="100%">
-										<source src="/img/mycar/accord-roa-01.mp4" type="video/mp4"></video></div>
+										<source src="/video/accord-roa-01.mp4" type="video/mp4"></video></div>
 										<div class="imgBox"><img src="/img/mycar/accord-roa-02.jpg" alt="accord-roa-02-img"></div>
 										<div class="imgBox"><img src="/img/mycar/accord-roa-03.jpg" alt="accord-roa-03-img"></div>
 										<div class="imgBox"><img src="/img/mycar/accord-roa-04.jpg" alt="accord-roa-04-img"></div>
