@@ -20,7 +20,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp' },
       { hid: 'og:description', property: 'og:description', content: 'This is a portfolio site. From the design, photos and information on the car you are riding are updated from time to time.' },
-      { hid: 'og:image', property: 'og:image', content: 'https://ajaku.jp/img/humbnail.jpg' },
+      { hid: 'og:image', property: 'og:image', content: 'https://ajaku.jp/img/thumbnail.jpg' },
 
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' }
