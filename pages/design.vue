@@ -213,6 +213,20 @@
 						img_02_src: require('../static/img/design/design-img_23-2.jpg'),
 						desc: '"TRiNITY" のアルバムデザインがカッコよかったので深夜テンションで作ってみました\nネオンシティで黄昏ているのを想像して作成しました\nインスタ風に仕上げたため細かい部分にははかちぇに関係する小ネタが多く仕込まれています',
 					},
+					{ 
+						id: 24,
+						title: '痛車デザイン(原神 神里綾華)',
+						img_01_src: require('../static/img/design/design-img_24-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_24-2.jpg'),
+						desc: '氷属性ということもあり青を多用し、冷たさを表現\nその中にも作中で出てくる桜をイメージして全体を型取り、両立させたデザインは\n冷たくも華やかで落ち着いたイメージを持たせてくれました',
+					},
+					{ 
+						id: 25,
+						title: 'スクエアステッカー(原神 神里綾華)',
+						img_01_src: require('../static/img/design/design-img_25-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_25-2.jpg'),
+						desc: '痛車のデザイン後に余った時間を用いて作成\n神里家の紋章と柄全体的に和のテイストを表現しました\n和紙のような表現と古書をモチーフにしたレイアウトは新しいデザインを表現しました',
+					},
 
 				]
 			}
