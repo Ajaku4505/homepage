@@ -84,6 +84,10 @@
 					{	id: 18,	img_01_src: require('../static/img/photo/photo-img_18.jpg'),	},
 					{	id: 19,	img_01_src: require('../static/img/photo/photo-img_19.jpg'),	},
 					{	id: 20,	img_01_src: require('../static/img/photo/photo-img_20.jpg'),	},
+					{	id: 21,	img_01_src: require('../static/img/photo/photo-img_21.jpg'),	},
+					{	id: 22,	img_01_src: require('../static/img/photo/photo-img_22.jpg'),	},
+					{	id: 23,	img_01_src: require('../static/img/photo/photo-img_23.jpg'),	},
+					{	id: 24,	img_01_src: require('../static/img/photo/photo-img_24.jpg'),	},
 
 				]
 			}
@@ -103,7 +107,22 @@
 			closeModal () {
 				this.showContent = false
 			}
-	    }
+	    },
+
+		head() {
+			return {
+				title: 'Photo | Ajaku Portfolio',
+				meta: [
+
+					{ hid: 'og:site_name', property: 'og:site_name', content: 'Photo | Ajaku Portfolio' },
+					{ hid: 'og:title', property: 'og:title', content: 'Photo | Ajaku Portfolio' },
+					{ hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp/photo' },
+					{ hid: 'og:image', property: 'og:image', content: 'https://ajaku.jp/img/thumbnail.jpg' },
+					{ hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' }
+				],
+			}
+
+		}
 
 	}
 

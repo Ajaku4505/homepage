@@ -169,7 +169,7 @@
 					},
 					{ 
 						id: 17, 
-						title: 'Webデザイン(DayDream2021 スペックシート)',
+						title: 'Webデザイン(DayDream2021 スペックシート @Ajaku4505)',
 						img_01_src: require('../static/img/design/design-img_17-1.jpg'),
 						desc: 'DayDream2021に展示した際のスペックシートになります\nWebのデザインをまともにやったのはこれが初めてで、映像製作・撮影・Webデザイン・コーディングまでを全て一人で担当しました\n特に見るときにワクワクするモーションを入れるのに苦労しました\nhttps://ajaku.jp/daydream2021',
 					},
@@ -182,50 +182,117 @@
 					},
 					{ 
 						id: 19, 
-						title: '痛車デザイン【構想】(ホロライブ 獅白ぼたん)',
+						title: 'スクエアステッカー(アイドルマスター シャイニーカラーズ 西城樹里&杜野凛世)',
 						img_01_src: require('../static/img/design/design-img_19-1.jpg'),
-						desc: 'レースレプリカを作ったことがなかったため、単純な好奇心とししろんがカッコよかったので作りました\nモチーフになったのは90年代JTCCで活躍していたPIAAカラーのCDアコードになります\n白ボディに黒のストライプだけでデザインされた車体はししろん とマッチしてたので相性がよくコラりました',
+						img_02_src: require('../static/img/design/design-img_19-2.jpg'),
+						desc: '夕日が落ちる砂浜で仲良く二人でいる雰囲気を出して作りました\nリアガラスのデザインと同じテイストで当てはめ、パッと見てエモいと言わせるようなモノ作って欲しいということで作成しました。\n',
 					},
 					{ 
 						id: 20, 
-						title: 'スクエアステッカー(ホロライブ 星街すいせい)',
+						title: '痛車デザイン【構想】(ホロライブ 獅白ぼたん)',
 						img_01_src: require('../static/img/design/design-img_20-1.jpg'),
-						mov_02_src: require('../static/img/design/design-img_20-2.jpg'),
+						desc: 'レースレプリカを作ったことがなかったため、単純な好奇心とししろんがカッコよかったので作りました\nモチーフになったのは90年代JTCCで活躍していたPIAAカラーのCDアコードになります\n白ボディに黒のストライプだけでデザインされた車体はししろん とマッチしてたので相性がよくコラりました',
+					},
+					{ 
+						id: 21, 
+						title: 'スクエアステッカー(ホロライブ 星街すいせい)',
+						img_01_src: require('../static/img/design/design-img_21-1.jpg'),
+						mov_02_src: require('../static/img/design/design-img_21-2.jpg'),
 						desc: 'すいちゃんは今日も可愛かったのとブルーのデザインを作ってみたいということでデザインしました\nパーソナルカラーのブルーで表現し、背景には水彩画を用い、星々と幾何学模様を入れることで夜空を表現しました',
 					},
 					{ 
-						id: 21,
+						id: 22,
 						title: 'スクエアステッカー(ホロライブ 不知火フレア)',
-						img_01_src: require('../static/img/design/design-img_21-1.jpg'),
-						img_02_src: require('../static/img/design/design-img_21-2.jpg'),
+						img_01_src: require('../static/img/design/design-img_22-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_22-2.jpg'),
 						desc: 'ふーたんのメンタルチェンソーを100万回聴きながらエネルギッシュな雰囲気に惹かれデザインしました\n角ばったフォントに挨拶を背景に流し込むデザインは面白い仕上がりになりました 元気っ娘マジでかわいい',
 					},
 					{ 
-						id: 22,
+						id: 23,
 						title: 'Webデザイン(ポートフォリオ)',
-						img_01_src: require('../static/img/design/design-img_22-1.jpg'),
+						img_01_src: require('../static/img/design/design-img_23-1.jpg'),
 						desc: '現在見ていますこのページになります\nデザインのストックが貯まったのと、今後の資産として作成しました\nデザインとコーディングを行い、フレームはnuxt.jsを用いました',
 					},
 					{ 
-						id: 23,
+						id: 24,
 						title: 'スクエアステッカー(にじさんじ 葉加瀬冬雪)',
-						img_01_src: require('../static/img/design/design-img_23-1.jpg'),
-						img_02_src: require('../static/img/design/design-img_23-2.jpg'),
+						img_01_src: require('../static/img/design/design-img_24-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_24-2.jpg'),
 						desc: '"TRiNITY" のアルバムデザインがカッコよかったので深夜テンションで作ってみました\nネオンシティで黄昏ているのを想像して作成しました\nインスタ風に仕上げたため細かい部分にははかちぇに関係する小ネタが多く仕込まれています',
 					},
 					{ 
-						id: 24,
+						id: 25,
 						title: '痛車デザイン(原神 神里綾華)',
-						img_01_src: require('../static/img/design/design-img_24-1.jpg'),
-						img_02_src: require('../static/img/design/design-img_24-2.jpg'),
+						img_01_src: require('../static/img/design/design-img_25-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_25-2.jpg'),
 						desc: '氷属性ということもあり青を多用し、冷たさを表現\nその中にも作中で出てくる桜をイメージして全体を型取り、両立させたデザインは\n冷たくも華やかで落ち着いたイメージを持たせてくれました',
 					},
 					{ 
-						id: 25,
+						id: 26,
 						title: 'スクエアステッカー(原神 神里綾華)',
-						img_01_src: require('../static/img/design/design-img_25-1.jpg'),
-						img_02_src: require('../static/img/design/design-img_25-2.jpg'),
+						img_01_src: require('../static/img/design/design-img_26-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_26-2.jpg'),
 						desc: '痛車のデザイン後に余った時間を用いて作成\n神里家の紋章と柄全体的に和のテイストを表現しました\n和紙のような表現と古書をモチーフにしたレイアウトは新しいデザインを表現しました',
+					},
+					{ 
+						id: 27,
+						title: 'スクエアステッカー(にじさんじ 西園チグサ)',
+						img_01_src: require('../static/img/design/design-img_27-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_27-2.jpg'),
+						desc: 'テキストを入れずにキャラクターを表現してみました\nバーチャルな空間を表すための幾何学な図形と、キャラクターのイメージカラーを添えたデザインでバランスよく表現しました',
+					},
+					{ 
+						id: 28,
+						title: '痛車デザイン(にじさんじ 御伽原江良)',
+						img_01_src: require('../static/img/design/design-img_28-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_28-2.jpg'),
+						desc: 'デザインには物語を詰め込んでおり、運転席からデビューを表現して活発に活動して行く姿をデザインで表現しました\nそこから助手席側は、引退という形を流れるようにデザインで表していきました\nどちらも時計の時間には意味が込められており、時間の部分には各ライバーのマークを当てはめています',
+					},
+					{ 
+						id: 29, 
+						title: 'Webデザイン(DayDream2022 スペックシート @takuto_s2k)',
+						img_01_src: require('../static/img/design/design-img_29-1.jpg'),
+						desc: 'DayDream2022で展示していた 御伽原江良 S2000のスペックシートです\nレスポンシブ対応でLPページとして作成したため、文章と画像でシンプルに作成しました\nhttps://ajaku.jp/daydream2022_takuto_s2k',
+					},
+					{ 
+						id: 30, 
+						title: 'スクエアステッカー(にじさんじ 御伽原江良)',
+						img_01_src: require('../static/img/design/design-img_30-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_30-2.jpg'),
+						desc: '以前作ってたインスタ風シリーズで作ってみました\n思い入れのあるウェディングイラストで美しいシンデレラのワンシーンを切り抜きました',
+					},
+					{ 
+						id: 31, 
+						title: 'スクエアステッカー(にじさんじ 戌亥とこ)',
+						img_01_src: require('../static/img/design/design-img_31-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_31-2.jpg'),
+						desc: 'インスタ風シリーズの1作品です\n喫茶店で働いている新ビジュアルをイメージカーラーに寄せた赤い背景とともに形にしました',
+					},
+					{ 
+						id: 32, 
+						title: '印刷物(DayDream2022 スペックシート @galhey_kyermm)',
+						img_01_src: require('../static/img/design/design-img_32-1.jpg'),
+						desc: 'DayDream2022のスペックシートのデザインです\nポスターとして見せるのが主でしたので、キャラクターの順番とメッセージに意味を込めて作成しました\n下部には車両スペックを見やすく記述し、SNSのリンクを配置しました',
+					},
+					{ 
+						id: 33, 
+						title: '印刷物(DayDream2022 スペックシート @sho510sss)',
+						img_01_src: require('../static/img/design/design-img_33-1.jpg'),
+						desc: 'DayDream2022のスペックシートのデザインです\n両側からイラストを全身見せ、中央に車両スペックを記載しました',
+					},
+					{ 
+						id: 34, 
+						title: 'スクエアステッカー(原神 甘雨)',
+						img_01_src: require('../static/img/design/design-img_34-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_34-2.jpg'),
+						desc: '原神に登場する甘雨ちゃんのスクエアステッカーのデザインをしました\n神里綾華とは違う、中国古来の色と模様を用いてデザインしました',
+					},
+					{ 
+						id: 35, 
+						title: 'スクエアステッカー(ホロライブ 獅白ぼたん)',
+						img_01_src: require('../static/img/design/design-img_35-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_35-2.jpg'),
+						desc: 'ししろんの可愛らしさに釣られて作りました\nかっこいいデザインとは相対的に、メルヘン寄りの可愛らしいカラーでデザインしました。\n可愛いの具現化で、ししろんっぽくないのもあって、新鮮な気持ちでデザインしてました。',
 					},
 
 				]
@@ -246,7 +313,24 @@
 			closeModal () {
 				this.showContent = false
 			}
-	    }
+	    },
+
+		head() {
+			return {
+				title: 'Design | Ajaku Portfolio',
+				meta: [
+					{ hid: 'description', name: 'description', content: 'Mainly, the list includes the items we have designed: ITASHA, stickers, posters, websites, and various other achievements.'},
+
+					{ hid: 'og:site_name', property: 'og:site_name', content: 'Design | Ajaku Portfolio' },
+					{ hid: 'og:title', property: 'og:title', content: 'Design | Ajaku Portfolio' },
+					{ hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp/design' },
+					{ hid: 'og:description', property: 'og:description', content: 'Mainly, the list includes the items we have designed: ITASHA, stickers, posters, websites, and various other achievements.' },
+					{ hid: 'og:image', property: 'og:image', content: 'https://ajaku.jp/img/thumbnail.jpg' },
+					{ hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' }
+				],
+			}
+
+		}
 
 	}
 
@@ -318,6 +402,12 @@
 		-o-object-fit: cover;
 		margin-bottom: 20px;
 		overflow: hidden;
+	}
+
+	#design .flex-area.grid::after {
+		content: "";
+	    display: block;
+	    width: 31.5%;
 	}
 
 	.flex-area.grid img {
