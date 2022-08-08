@@ -16,8 +16,8 @@
 						</div>
 						<div class="mainvisual">
 							<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
-								<img src="img/index/mv_01.jpg" alt="mainvisual01">
-								<img src="img/index/mv_02.jpg" alt="mainvisual02">
+								<img src="img/index/mv_01.jpg" alt="mainvisual01" loading="eager">
+								<img src="img/index/mv_02.jpg" alt="mainvisual02" loading="eager">
 							</slick>
 						</div>
 					</div>
@@ -48,7 +48,7 @@
 									<p>とても喜ばしいことかなと思ってます笑</p>
 								</div>
 								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged01, once: true}' v-bind:class='{active:isVisible01}'>
-									<img src="img/index/about-img.jpg" alt="about-img">
+									<img src="img/index/about-img.jpg" alt="about-img" loading="lazy">
 								</div>
 							</div>
 						</div>
@@ -60,7 +60,9 @@
 							<h1 class="section-title weight700">MyCar</h1>
 							</div>
 							<div class="section-contets">
-								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged02, once: true}' v-bind:class='{active:isVisible02}'><img src="img/index/mycar-img.jpg" alt="mycar-img"></div>
+								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged02, once: true}' v-bind:class='{active:isVisible02}'>
+									<img src="img/index/mycar-img.jpg" alt="mycar-img" loading="lazy">
+								</div>
 								<div class="textBox weight300">
 									<p class="meta">2021 / 09 / 21</p><br class="sp">
 									<p>Honda AccordWagon 1994</p><br class="sp">
@@ -83,10 +85,10 @@
 							<div class="section-contets">
 								<div class="imgBox multiple">
 									<div v-observe-visibility='{callback: visibilityChanged03, once: true}' v-bind:class='{active:isVisible03}'>
-										<img src="img/index/design-img_01.jpg" alt="design-01">
+										<img src="img/index/design-img_01.jpg" alt="design-01" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged03, once: true}' v-bind:class='{active:isVisible03}'>
-										<img src="img/index/design-img_02.jpg" alt="design-02">
+										<img src="img/index/design-img_02.jpg" alt="design-02" loading="lazy">
 									</div>
 								</div>
 								<div class="textBox weight300">
@@ -107,27 +109,27 @@
 					<section id="photo" class="contents-area sec04">
 						<div class="secWrap">
 							<div class="section-text">
-								<h1 class="section-title weight700">Photo</h1><span class="section-subtitle weight700">by<img src="img/index/karasuzu.png" alt="カラスズ印刷"></span>
+								<h1 class="section-title weight700">Photo</h1><span class="section-subtitle weight700">by<img src="img/index/karasuzu.png" alt="カラスズ印刷" loading="lazy"></span>
 							</div>
 							<div class="section-contets">
 								<div class="imgBox multiple">
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_01.jpg" alt="photo-01">
+										<img src="img/index/photo-img_01.jpg" alt="photo-01" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_02.jpg" alt="photo-02">
+										<img src="img/index/photo-img_02.jpg" alt="photo-02" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_03.jpg" alt="photo-03">
+										<img src="img/index/photo-img_03.jpg" alt="photo-03" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_04.jpg" alt="photo-04">
+										<img src="img/index/photo-img_04.jpg" alt="photo-04" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_05.jpg" alt="photo-05">
+										<img src="img/index/photo-img_05.jpg" alt="photo-05" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_06.jpg" alt="photo-06">
+										<img src="img/index/photo-img_06.jpg" alt="photo-06" loading="lazy">
 									</div>
 								</div>
 								<div class="textBox weight300">

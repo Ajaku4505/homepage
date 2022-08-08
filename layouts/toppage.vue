@@ -22,7 +22,7 @@
 				<li><a class="external-link" href="daydream2021" target="_blank">DayDream2021</a></li>
 			</ul>
 			<div class="footer-profile">
-				<img src="img/index/profile.jpg" alt="profile">
+				<img src="img/index/profile.jpg" alt="profile" loading="lazy">
 			</div>
 			<div class="copyright">
 				<p>© Ajaku(Koki Oyama) 2022 All Rights Reserved.</p>

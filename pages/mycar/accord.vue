@@ -13,9 +13,9 @@
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><video autoplay="" loop="" muted="" playsinline="" width="100%">
 										<source src="/video/accord-roa-01.mp4" type="video/mp4"></video></div>
-										<div class="imgBox"><img src="/img/mycar/accord-roa-02.jpg" alt="accord-roa-02-img"></div>
-										<div class="imgBox"><img src="/img/mycar/accord-roa-03.jpg" alt="accord-roa-03-img"></div>
-										<div class="imgBox"><img src="/img/mycar/accord-roa-04.jpg" alt="accord-roa-04-img"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-roa-02.jpg" alt="accord-roa-02-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-roa-03.jpg" alt="accord-roa-03-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-roa-04.jpg" alt="accord-roa-04-img" loading="lazy"></div>
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2021 / 09 / 21</p>
@@ -29,9 +29,9 @@
 								</div>
 								<div class="section-contets">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
-										<div class="imgBox"><img src="/img/mycar/accord-ark-01.jpg" alt="accord-ark-01-img"></div>
-										<div class="imgBox"><img src="/img/mycar/accord-ark-02.jpg" alt="accord-ark-02-img"></div>
-										<div class="imgBox"><img src="/img/mycar/accord-ark-03.jpg" alt="accord-ark-03-img"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-ark-01.jpg" alt="accord-ark-01-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-ark-02.jpg" alt="accord-ark-02-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-ark-03.jpg" alt="accord-ark-03-img" loading="lazy"></div>
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2021 / 08 / 24</p>

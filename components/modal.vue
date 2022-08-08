@@ -6,10 +6,10 @@
 				<div class="modal-content">
 					<h4 v-if="val.title" class="weight300">{{ val.title }}</h4>
 					<slick ref="slick" class="slick-outer" :options="slick_imgOptions" v-if="val.img_02_src">
-						<img :src="val.img_01_src">
-						<img :src="val.img_02_src">
+						<img :src="val.img_01_src" loading="lazy">
+						<img :src="val.img_02_src" loading="lazy">
 					</slick>
-					<img v-else :src="val.img_01_src">
+					<img v-else :src="val.img_01_src" loading="lazy">
 					<div v-if="val.desc" class="textBox weight300">
 						<p>{{ val.desc }}</p>
 					</div>

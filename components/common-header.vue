@@ -5,7 +5,7 @@
 		<div class="header-menu">
 			<div class="header-titile">
 				<a v-bind:href="url">
-					<img v-bind:src="img_url" alt="KOKI Ajaku">
+					<img v-bind:src="img_url" alt="KOKI Ajaku" loading="eager">
 				</a>
 			</div>
 			<div class="header-sns pc">
