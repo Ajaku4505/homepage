@@ -25,7 +25,7 @@
 				<img src="img/index/profile.jpg" alt="profile" loading="lazy">
 			</div>
 			<div class="copyright">
-				<p>© Ajaku(Koki Oyama) 2022 All Rights Reserved.</p>
+				<p>© Ajaku(Koki Oyama) {{ now }} All Rights Reserved.</p>
 			</div>
 		</div>
 	</footer>
@@ -41,6 +41,7 @@ export default {
 	data () {
 		return {
 			url: '#',
+			now: '',
 		}
 	},
 
@@ -50,7 +51,12 @@ export default {
 
       	setTimeout(() => this.$nuxt.$loading.finish(), 2000)
     	})
-  	}
+  	},
+
+	created () {
+		const d = new Date()
+		this.now = d.getFullYear()
+	}
 
 }
 
