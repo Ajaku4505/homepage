@@ -48,7 +48,7 @@
 									<p>とても喜ばしいことかなと思ってます笑</p>
 								</div>
 								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged01, once: true}' v-bind:class='{active:isVisible01}'>
-									<img src="img/index/about-img.jpg" alt="about-img">
+									<img src="img/index/about-img.jpg" alt="about-img" loading="lazy">
 								</div>
 							</div>
 						</div>
@@ -60,7 +60,7 @@
 							<h1 class="section-title weight700">MyCar</h1>
 							</div>
 							<div class="section-contets">
-								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged02, once: true}' v-bind:class='{active:isVisible02}'><img src="img/index/mycar-img.jpg" alt="mycar-img"></div>
+								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged02, once: true}' v-bind:class='{active:isVisible02}'><img src="img/index/mycar-img.jpg" alt="mycar-img" loading="lazy"></div>
 								<div class="textBox weight300">
 									<p class="meta">2021 / 09 / 21</p><br class="sp">
 									<p>Honda AccordWagon 1994</p><br class="sp">
@@ -68,7 +68,7 @@
 								</div>
 								<div class="link">
 									<router-link class="nav-link" to="/mycar/accord">
-										<div class="more button">more +</div>
+										<div class="more button">more</div>
 									</router-link>
 								</div>
 							</div>
@@ -83,10 +83,10 @@
 							<div class="section-contets">
 								<div class="imgBox multiple">
 									<div v-observe-visibility='{callback: visibilityChanged03, once: true}' v-bind:class='{active:isVisible03}'>
-										<img src="img/index/design-img_01.jpg" alt="design-01">
+										<img src="img/index/design-img_01.jpg" alt="design-01" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged03, once: true}' v-bind:class='{active:isVisible03}'>
-										<img src="img/index/design-img_02.jpg" alt="design-02">
+										<img src="img/index/design-img_02.jpg" alt="design-02" loading="lazy">
 									</div>
 								</div>
 								<div class="textBox weight300">
@@ -97,7 +97,7 @@
 								</div>
 								<div class="link">
 									<router-link class="nav-link" to="design">
-										<div class="more button">more +</div>
+										<div class="more button">more</div>
 									</router-link>
 								</div>
 							</div>
@@ -107,27 +107,27 @@
 					<section id="photo" class="contents-area sec04">
 						<div class="secWrap">
 							<div class="section-text">
-								<h1 class="section-title weight700">Photo</h1><span class="section-subtitle weight700">by<img src="img/index/karasuzu.png" alt="カラスズ印刷"></span>
+								<h1 class="section-title weight700">Photo</h1><span class="section-subtitle weight700">by<img src="img/index/karasuzu.png" alt="カラスズ印刷" loading="lazy"></span>
 							</div>
 							<div class="section-contets">
 								<div class="imgBox multiple">
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_01.jpg" alt="photo-01">
+										<img src="img/index/photo-img_01.jpg" alt="photo-01" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_02.jpg" alt="photo-02">
+										<img src="img/index/photo-img_02.jpg" alt="photo-02" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_03.jpg" alt="photo-03">
+										<img src="img/index/photo-img_03.jpg" alt="photo-03" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_04.jpg" alt="photo-04">
+										<img src="img/index/photo-img_04.jpg" alt="photo-04" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_05.jpg" alt="photo-05">
+										<img src="img/index/photo-img_05.jpg" alt="photo-05" loading="lazy">
 									</div>
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
-										<img src="img/index/photo-img_06.jpg" alt="photo-06">
+										<img src="img/index/photo-img_06.jpg" alt="photo-06" loading="lazy">
 									</div>
 								</div>
 								<div class="textBox weight300">
@@ -136,7 +136,7 @@
 								</div>
 								<div class="link">
 									<router-link class="nav-link" to="photo">
-										<div class="more button">more +</div>
+										<div class="more button">more</div>
 									</router-link>
 								</div>
 							</div>
@@ -333,11 +333,11 @@
 
 	section {
 		position: relative;
-		margin: 200px 0;
+		margin: 120px 0;
 	}
 
 	.section-text {
-		margin-bottom: 100px;
+		margin-bottom: 80px;
 	}
 
 	.section-text h1.section-title {
@@ -376,12 +376,44 @@
 	}
 
 	.more.button {
+		position: relative;
 		padding: 10px 50px;
 		border: solid 1px var(--sub-color);
 		display: inline-block;
 		font-weight: 300;
-			-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
-						transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+		-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+				transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+	}
+
+	.more.button::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 10px;
+		bottom: 0;
+		width: 15px;
+    	height: 1px;
+		margin: auto;
+		background: var(--sub-color);
+		transform: rotate(90deg);
+		border-radius: 5px;
+		-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+				transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+	}
+
+	.more.button::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 10px;
+		bottom: 0;
+		width: 15px;
+    height: 1px;
+		margin: auto;
+		background: var(--sub-color);
+		border-radius: 5px;
+		-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+				transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
 	}
 
 	.more.button:hover {
@@ -389,8 +421,20 @@
 		border: solid 1px var(--main-color);
 		background: var(--main-color);
 		color: #FFF;
-			-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
-						transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+		-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+				transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+	}
+
+	.more.button:hover::before {
+		background: #fff;
+		-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+				transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+	}
+
+	.more.button:hover::after {
+		background: #fff;
+		-webkit-transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
+				transition: all 150ms cubic-bezier(.445, .05, .55, .95) 0ms;
 	}
 
 
@@ -511,7 +555,7 @@
 	}
 
 	section {
-		margin: 100px 0;
+		margin: 80px 0;
 	}
 
 	.section-text h1.section-title {

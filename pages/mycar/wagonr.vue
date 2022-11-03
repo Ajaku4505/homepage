@@ -11,10 +11,10 @@
 							<slick ref="slick" class="slick-outer">
 								<div class="section-contets">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
-										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-01.jpg" alt="wagonr-pso2-01-img"></div>
-										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-02.jpg" alt="wagonr-pso2-02-img"></div>
-										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-03.jpg" alt="wagonr-pso2-03-img"></div>
-										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-04.jpg" alt="wagonr-pso2-04-img"></div>
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-01.jpg" alt="wagonr-pso2-01-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-02.jpg" alt="wagonr-pso2-02-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-03.jpg" alt="wagonr-pso2-03-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-04.jpg" alt="wagonr-pso2-04-img" loading="lazy"></div>
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2019 / 03 / 13</p>

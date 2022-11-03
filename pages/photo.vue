@@ -9,7 +9,7 @@
 						<div class="secWrap">
 							<div class="flex-area grid">
 								<div class="section-contets" v-for="item in reverseItems">
-									<img @click="openModal(item)" :src="item.img_01_src" alt="photo_item">
+									<img @click="openModal(item)" :src="item.img_01_src" alt="photo_item" loading="lazy">
 								</div>
 								<modal :val="postItem" v-show="showContent" @close="closeModal" />
 							</div>
@@ -194,6 +194,7 @@
 		-o-object-fit: cover;
 		margin-bottom: 20px;
 		overflow: hidden;
+		cursor: pointer;
 	}
 
 	.flex-area.grid img {

@@ -11,11 +11,11 @@
 							<slick ref="slick" class="slick-outer" :options="slickOptions">
 								<div class="section-contets">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
-										<div class="imgBox"><img src="/img/mycar/cultus-roa-01.jpg" alt="cultus-roa-01-img"></div>
-										<div class="imgBox"><img src="/img/mycar/cultus-roa-02.jpg" alt="cultus-roa-02-img"></div>
-										<div class="imgBox"><img src="/img/mycar/cultus-roa-03.jpg" alt="cultus-roa-03-img"></div>
-										<div class="imgBox"><img src="/img/mycar/cultus-roa-04.jpg" alt="cultus-roa-04-img"></div>
-										<div class="imgBox"><img src="/img/mycar/cultus-roa-05.jpg" alt="cultus-roa-05-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-01.jpg" alt="cultus-roa-01-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-02.jpg" alt="cultus-roa-02-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-03.jpg" alt="cultus-roa-03-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-04.jpg" alt="cultus-roa-04-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-roa-05.jpg" alt="cultus-roa-05-img" loading="lazy"></div>
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2020 / 03 / 26</p>
@@ -28,8 +28,8 @@
 								</div>
 								<div class="section-contets">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
-										<div class="imgBox"><img src="/img/mycar/cultus-wanko-01.jpg" alt="cultus-wanko-01-img"></div>
-										<div class="imgBox"><img src="/img/mycar/cultus-wanko-02.jpg" alt="cultus-wanko-02-img"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-wanko-01.jpg" alt="cultus-wanko-01-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/cultus-wanko-02.jpg" alt="cultus-wanko-02-img" loading="lazy"></div>
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2019 / 10 / 27</p>
