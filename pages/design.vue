@@ -292,7 +292,21 @@
 						title: 'スクエアステッカー(ホロライブ 獅白ぼたん)',
 						img_01_src: require('../static/img/design/design-img_35-1.jpg'),
 						img_02_src: require('../static/img/design/design-img_35-2.jpg'),
-						desc: 'ししろんの可愛らしさに釣られて作りました\nかっこいいデザインとは相対的に、メルヘン寄りの可愛らしいカラーでデザインしました。\n可愛いの具現化で、ししろんっぽくないのもあって、新鮮な気持ちでデザインしてました。',
+						desc: 'ししろんの可愛らしさに釣られて作ってみました\nかっこいいデザインとは相対的に、メルヘン寄りの可愛らしいカラーでデザインに落とし込んでみました。\n可愛いの具現化で、ししろんっぽくないのもあって、すごく悩んだデザインです。',
+					},
+					{ 
+						id: 36, 
+						title: 'アパレル(V OTAKU GAMERS Tシャツ)',
+						img_01_src: require('../static/img/design/design-img_36-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_36-2.jpg'),
+						desc: 'メンバー用のTシャツを製作しました\nシンプルなデザインにメンバーであるharutoさんのロゴが映える仕上がりとなりました。',
+					},
+					{ 
+						id: 37, 
+						title: '痛車デザイン(とある魔術の禁書目録 禁書目録)',
+						img_01_src: require('../static/img/design/design-img_37-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_37-2.jpg'),
+						desc: 'インデックスの雰囲気と、夜空に浮かぶ紋章が目立つデザインにしました。\n随所にあしらいを増やして遊び心も盛り込みました。',
 					},
 
 				]
