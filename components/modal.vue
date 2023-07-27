@@ -13,6 +13,9 @@
 					<div v-if="val.desc" class="textBox weight300">
 						<p>{{ val.desc }}</p>
 					</div>
+					<div v-if="val.url" class="textBox weight300">
+						<a :href='val.url' target="_blank">{{ val.url }}</a>
+					</div>
 						<div class="close" @click="$emit('close')"></div>
 				</div>
 			</div>
