@@ -8,7 +8,7 @@
 					<section id="portfolio" class="contents-area">
 						<div class="secWrap">
 							<div class="flex-area grid">
-								<div class="section-contents" v-for="item in reverseItems">
+								<div class="section-contents" v-for="item in reverseItems" @mouseover="changeImg" @mouseleave="returnImg">
 									<img @click="openModal(item)" :src="item.img_01_src" alt="photo_item" loading="lazy">
 								</div>
 								<modal :val="postItem" v-show="showContent" @close="closeModal" />
@@ -18,6 +18,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="bg-img"></div>
 	</div>
 
 </template>
@@ -112,7 +113,25 @@
 			},
 			closeModal () {
 				this.showContent = false
-			}
+			},
+
+            changeImg: function(e) {
+				const target = document.querySelector(".bg-img");
+				let imgUrl = e.target.getAttribute("src");
+				target.style.background = "url(" + imgUrl + ")";
+				target.style.backgroundRepeat = "no-repeat";
+				target.style.backgroundSize = "cover";
+				target.style.backgroundPosition = "center";
+				target.style.opacity = "1";
+				target.style.visibility = "visible";
+            },
+
+            returnImg: function(e) {
+				const target = document.querySelector(".bg-img")
+				target.style.opacity = "0";
+				target.style.visibility = "hidden";
+            }
+
 	    },
 
 		head() {
@@ -135,6 +154,25 @@
 </script>
 
 <style>
+
+	body {
+		transition: all 1s;
+	}
+
+	.bg-img {
+		width: 100vw;
+		height: 100vh;
+		background: #FFF;
+		z-index: -1;
+		position: fixed;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		visibility: hidden;
+		/* transition: opacity .4s, visibility .4s; */
+		transition: all .4s;
+		filter: blur(10px);
+	}
 
 	/* slick */
 
@@ -204,7 +242,7 @@
 		cursor: pointer;
 	}
 
-	#portfolio .flex-area.grid .section-contents::after{
+	#portfolio .flex-area.grid::after{
 		content:"";
 		display: block;
 		width :calc(100% / 3 - 15px);
