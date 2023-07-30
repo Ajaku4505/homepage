@@ -67,35 +67,202 @@
 				items: [
 					{ 
 						id: 1, 
-						title: '#',
-						img_01_src: 'https://placehold.jp/600x400.png',
-						url: 'https://placehold.jp/600x400.png',
+						title: '明治座 オンライン明治座横丁',
+						img_01_src: require('../static/img/portfolio/meijiza.jpg'),
+						url: 'https://yokocho.meijiza.co.jp/',
 					},
 					{ 
 						id: 2, 
-						title: '#',
-						img_01_src: 'https://placehold.jp/600x400.png',
-						url: 'https://placehold.jp/600x400.png',
+						title: 'キタムラフーズ オンラインショップ',
+						img_01_src: require('../static/img/portfolio/kitamura.jpg'),
+						url: 'https://shop.k-foods.co.jp/products_list.aspx?mode=display',
 					},
 					{ 
 						id: 3, 
-						title: '#',
-						img_01_src: 'https://placehold.jp/600x400.png',
-						url: 'https://placehold.jp/600x400.png',
+						title: 'キャスタイムスタンプ ブランドサイト',
+						img_01_src: require('../static/img/portfolio/castime.jpg'),
+						url: 'https://castime.jp/',
 					},
 					{ 
 						id: 4, 
-						title: '#',
-						img_01_src: 'https://placehold.jp/600x400.png',
-						url: 'https://placehold.jp/600x400.png',
+						title: 'キャスタイムスタンプ LPページ',
+						img_01_src: require('../static/img/portfolio/castime_lp.jpg'),
+						url: 'https://castime.jp/lp/',
 					},
 					{ 
 						id: 5, 
-						title: '#',
-						img_01_src: 'https://placehold.jp/400x200.png',
-						url: 'https://placehold.jp/600x400.png',
+						title: 'SUNRISEむなかた エントリーシート',
+						img_01_src: require('../static/img/portfolio/munakata.jpg'),
+						url: 'https://ajaku.jp/munakata2020/',
 					},
-
+					{ 
+						id: 6, 
+						title: '株式会社ファイブ コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/five.jpg'),
+						url: 'https://five-co.com/',
+					},
+					{ 
+						id: 7, 
+						title: '株式会社ファースト コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/first.jpg'),
+						url: 'https://first-ms.com/',
+					},
+					{ 
+						id: 8, 
+						title: '株式会社ゼロ コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/zero.jpg'),
+						url: 'https://www.ms-zero.com/',
+					},
+					{ 
+						id: 9, 
+						title: '株式会社フロンティア コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/frontire.jpg'),
+						url: 'https://ft-co.com/',
+					},
+					{ 
+						id: 11, 
+						title: '合志市議会議員 | ながきよ和寛 LPページ',
+						img_01_src: require('../static/img/portfolio/nagakiyo.jpg'),
+						url: 'https://nagakiyo.jp/',
+					},
+					{ 
+						id: 12, 
+						title: 'ITASHA WEEK 2021 エントリーシート',
+						img_01_src: require('../static/img/portfolio/iw2021.jpg'),
+						url: 'https://ajaku.jp/IW2021/',
+					},
+					{ 
+						id: 13, 
+						title: 'エガちゃんねる オンラインショップ',
+						img_01_src: require('../static/img/portfolio/ega.jpg'),
+						url: 'https://egachannel.shop/',
+					},
+					{ 
+						id: 15, 
+						title: 'トヨタL&F熊本 コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/toyotalf.jpg'),
+						url: 'https://lf-kumamoto.com/',
+					},
+					{ 
+						id: 17, 
+						title: 'DayDream2021 | スペックシート',
+						img_01_src: require('../static/img/portfolio/dd2021.jpg'),
+						url: 'https://ajaku.jp/daydream2021/',
+					},
+					{ 
+						id: 18, 
+						title: '東邦非鉄金属 コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/toho.jpg'),
+						url: 'https://www.toho-hk.com/',
+					},
+					{ 
+						id: 19, 
+						title: '徳永北 京町茶寮 コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/kyomati.jpg'),
+						url: 'https://tokunagakita.com/kyomachi/',
+					},
+					{ 
+						id: 20, 
+						title: 'ポートフォリオサイト',
+						img_01_src: require('../static/img/portfolio/ajaku.jpg'),
+						url: 'https://ajaku.jp/',
+					},
+					{ 
+						id: 21, 
+						title: 'DayDream2022 | スペックシート(@Takuto_s2k)',
+						img_01_src: require('../static/img/portfolio/takuto.jpg'),
+						url: 'https://ajaku.jp/daydream2022_takuto_s2k/',
+					},
+					{ 
+						id: 22, 
+						title: 'ボートレース 募集ページ',
+						img_01_src: require('../static/img/portfolio/boatrace.jpg'),
+						url: 'https://info-boatrace.jp/?_gl=1*10vyk1y*_gcl_au*NzczNDk5MTY4LjE2ODk0MDkwMTI.&_ga=2.263184332.1998096876.1689409013-168996534.1689409013',
+					},
+					{ 
+						id: 23, 
+						title: '富士通Data Driven トピック制作',
+						img_01_src: require('../static/img/portfolio/fujitsu.jpg'),
+						url: 'https://www.fujitsu.com/jp/innovation/data-driven/capabilities/bi-expert/',
+					},
+					{ 
+						id: 24, 
+						title: '大林組 Tsunashima サイネージ',
+						img_01_src: require('../static/img/portfolio/tsunashima.jpg'),
+						url: 'https://tsst.scim-service.jp/signage/',
+					},
+					{ 
+						id: 25, 
+						title: '浦和レッズ コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/urawa.jpg'),
+						url: 'https://www.urawa-reds.co.jp/',
+					},
+					{ 
+						id: 26, 
+						title: '浦和レッズ シーズンチケット 特設ページ',
+						img_01_src: require('../static/img/portfolio/urawa_ticket.jpg'),
+						url: 'https://www.urawa-reds.co.jp/ticket/2023season/',
+					},
+					{ 
+						id: 27, 
+						title: '太陽建機レンタル 高所作業ページ',
+						img_01_src: require('../static/img/portfolio/taiyo_kousyo.jpg'),
+						url: 'https://www.taiyokenki.co.jp/product/awp/index.html',
+					},
+					{ 
+						id: 28, 
+						title: 'ZEN風土 コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/zenfood.jpg'),
+						url: 'https://www.taiyokenki.co.jp/product/awp/index.html',
+					},
+					{ 
+						id: 29, 
+						title: 'CESA 日本ゲーム大賞 ブランドサイト',
+						img_01_src: require('../static/img/portfolio/award.jpg'),
+						url: 'https://awards.cesa.or.jp/',
+					},
+					{ 
+						id: 30, 
+						title: 'talenta 3rings プロトタイプ開発',
+						img_01_src: require('../static/img/portfolio/talenta.jpg'),
+						url: '',
+					},
+					{ 
+						id: 32, 
+						title: 'C&R GO Beyond the Limit',
+						img_01_src: require('../static/img/portfolio/gobeyond.jpg'),
+						url: 'https://www.cri.co.jp/gobeyond/',
+					},
+					{ 
+						id: 33, 
+						title: 'HOKTO きのこらぼ 菌活チャレンジ',
+						img_01_src: require('../static/img/portfolio/kinkatsu.jpg'),
+						url: 'https://www.hokto-kinoko.co.jp/kinokolabo/kinkatsu-challenge/',
+					},
+					{ 
+						id: 34, 
+						title: '太陽建機レンタル レンタカーページ',
+						img_01_src: require('../static/img/portfolio/taiyo_rentacar.jpg'),
+						url: 'https://www.taiyokenki.co.jp/product/hirecar/',
+					},
+					{ 
+						id: 36, 
+						title: '浦和レッズ マッチインフォメーションページ',
+						img_01_src: require('../static/img/portfolio/urawa_match.jpg'),
+						url: 'https://www.urawa-reds.co.jp/game/match_info/',
+					},
+					{ 
+						id: 37, 
+						title: '浦和レッズ SDGsページ',
+						img_01_src: require('../static/img/portfolio/urawa_sdgs.jpg'),
+						url: 'https://www.urawa-reds.co.jp/club/sdgs.php',
+					},
+					{ 
+						id: 38, 
+						title: 'キッザニア SDGsページ',
+						img_01_src: require('../static/img/portfolio/kidzania.jpg'),
+						url: 'https://www.kidzania.jp/sdgs/',
+					},
 				]
 			}
 	    },
@@ -143,7 +310,8 @@
 					{ hid: 'og:title', property: 'og:title', content: 'portfolio | Ajaku Portfolio' },
 					{ hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp/portfolio' },
 					{ hid: 'og:image', property: 'og:image', content: 'https://ajaku.jp/img/thumbnail.jpg' },
-					{ hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' }
+					{ hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' },
+					{ name: 'robots', content: 'noindex,nofollow' }
 				],
 			}
 
@@ -170,7 +338,7 @@
 		opacity: 0;
 		visibility: hidden;
 		/* transition: opacity .4s, visibility .4s; */
-		transition: all .4s;
+		transition: all .2s;
 		filter: blur(10px);
 	}
 
@@ -216,7 +384,7 @@
 	}
 
 	.container {
-		max-width: 980px;
+		max-width: 80%;
 		margin: auto;
 	}
 
@@ -234,7 +402,8 @@
 	#portfolio .flex-area.grid .section-contents {
 		/* width: 205px; */
 		width :calc(100% / 3 - 15px);
-		height: 205px;
+		/* height: 205px; */
+		height: 100%;
 		   object-fit: cover;
 		-o-object-fit: cover;
 		margin-bottom: 20px;

@@ -1,5 +1,5 @@
 <template>  
-	<div id="subpage">
+	<div id="minpage">
 		
 		<common-header/>
 
@@ -46,49 +46,49 @@ export default {
 
 	/* footer */
 
-	#subpage .flex-contents {
+	#minpage .flex-contents {
 		height: 100%;
 		display: flex;
 		align-content: center;
 		flex-wrap: wrap;
 	}
 
-	#subpage footer a {
+	#minpage footer a {
 	  text-decoration: none;
 	  color: var(--sub-color);
 	}
 
-	#subpage .nav-link.nuxt-link-active {
+	#minpage .nav-link.nuxt-link-active {
 		border-bottom: solid 2px var(--main-color);
 	}
 
-	#subpage footer .flex-contents > ul,
-	#subpage footer .flex-contents > div {
+	#minpage footer .flex-contents > ul,
+	#minpage footer .flex-contents > div {
 		width: 100%;
 	}
 
-	#subpage .flex-contents .footer-menu {
+	#minpage .flex-contents .footer-menu {
 		margin: 0 20px;
 	}
 
-	#subpage .flex-contents .footer-menu li {
+	#minpage .flex-contents .footer-menu li {
 		margin-bottom: 30px;
 	}
-	#subpage .flex-contents .footer-menu .drop_menu {
+	#minpage .flex-contents .footer-menu .drop_menu {
 		margin-bottom: 20px;
 	}
-	#subpage .flex-contents .footer-menu .sub_menu li {
+	#minpage .flex-contents .footer-menu .sub_menu li {
 		margin-bottom: 20px;
 		margin-left: 20px;
 	}
-	#subpage .flex-contents .footer-menu .sub_menu li:last-of-type {
+	#minpage .flex-contents .footer-menu .sub_menu li:last-of-type {
 		margin-bottom: 30px;
 	}
-	#subpage .flex-contents .footer-menu li:last-of-type {
+	#minpage .flex-contents .footer-menu li:last-of-type {
 		margin-bottom: 0;
 	}
 
-	#subpage .flex-contents .copyright {
+	#minpage .flex-contents .copyright {
 		position: absolute;
 		font-size: .8rem;
 		background: var(--main-color);
@@ -135,8 +135,7 @@ export default {
 
 	/* add css */
 
-	#subpage section {
-		width: 90%;
+	#minpage section {
 		margin: 100px auto;
 	}
 
@@ -145,17 +144,16 @@ export default {
 		height: 100vh;
 	}
 
-	#subpage footer {
+	#minpage footer {
 		padding: 0;
 		width: 20%;
 		text-align: left;
 		background: none;
+		display: none;
 	}
 
-	.main-contents {
-	  width: 80%;
-	  margin-top: 60px;
-	  overflow: scroll;
+	#minpage .main-contents {
+	  width: 100%;
 	}
 
 @media screen and (max-width:768px) {
@@ -172,34 +170,34 @@ export default {
 		margin-top: 60px;
 	}
 
-	#subpage footer {
+	#minpage footer {
 		width: 100%;
 	}
 
-	#subpage section {
+	#minpage section {
 		width: 80%;
 	}
 
-	#subpage .flex-contents .footer-menu {
+	#minpage .flex-contents .footer-menu {
 		margin: 20px;
 	}
 
-	#subpage .flex-contents .footer-menu .sub_menu {
+	#minpage .flex-contents .footer-menu .sub_menu {
 		width: 100%;
 	}
 
-	#subpage .footer-menu li,
-	#subpage .footer-menu.sub_menu {
+	#minpage .footer-menu li,
+	#minpage .footer-menu.sub_menu {
 		width: 100%;
 	}
 
-	#subpage .flex-contents .footer-menu .sub_menu li {
+	#minpage .flex-contents .footer-menu .sub_menu li {
 	    margin-bottom: 20px;
 	    margin-left: 10px;
 	    font-size: .8rem;
 	}
 
-	#subpage .flex-contents .copyright {
+	#minpage .flex-contents .copyright {
 		width: 100%;
 		padding: 10px;
 		position: relative;
