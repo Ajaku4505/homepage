@@ -9,7 +9,7 @@
 						<h4 class="weight300">Suzuki WagonR 1998</h4>
 						<div class="secWrap">
 							<slick ref="slick" class="slick-outer">
-								<div class="section-contets">
+								<div class="section-contents">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-01.jpg" alt="wagonr-pso2-01-img" loading="lazy"></div>
 										<div class="imgBox"><img src="/img/mycar/wagonr-pso2-02.jpg" alt="wagonr-pso2-02-img" loading="lazy"></div>
@@ -18,7 +18,7 @@
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2019 / 03 / 13</p>
-										<p>Charactor : イオ & オリキャラ (PSO2)</p>
+										<p>Character : イオ & オリキャラ (PSO2)</p>
 										<p class="description">免許取って初めて乗った車でした。<br>
 										初代MC21Sで貴重な3+1ドアの5MTというレアもレアな珍車に乗ってました。<br>
 										当時はお山に行ったり謎のメーター増やしたり燃調いじったりやりたい放題してました。（お陰でカーチューン脱却できました）<br>
@@ -118,7 +118,7 @@
 
 	@media screen and (max-width:768px) {
 
-		.section-contets .textBox {
+		.section-contents .textBox {
 			margin-top: 20px;
 		}
 

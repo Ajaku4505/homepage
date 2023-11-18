@@ -21,11 +21,16 @@
 					</svg>
 				</a>
 				<a href="https://twitter.com/Ajaku4505" target="_blank">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.9 24.6" style="enable-background:new 0 0 30.9 24.6;" xml:space="preserve">
+					<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.9 24.6" style="enable-background:new 0 0 30.9 24.6;" xml:space="preserve">
 						<path class="st0" d="M30.3,2.9c-1.1,0.5-2.3,0.8-3.6,1c1.3-0.8,2.3-2,2.7-3.4c-1.2,0.7-2.5,1.2-4,1.5c-1.1-1.2-2.8-2-4.5-2
 									c-4,0-7,3.7-6.1,7.6C9.8,7.4,5.2,4.9,2.1,1.1C0.5,3.9,1.3,7.6,4,9.4c-1,0-2-0.3-2.8-0.8c-0.1,2.9,2,5.6,5,6.2
 									c-0.9,0.2-1.8,0.3-2.8,0.1c0.8,2.5,3.1,4.3,5.8,4.3c-2.6,2.1-5.9,3-9.2,2.6c2.8,1.8,6,2.8,9.5,2.8c11.6,0,18.1-9.8,17.7-18.5
 									C28.4,5.3,29.5,4.2,30.3,2.9z" />
+					</svg> -->
+
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.9 29.6" style="enable-background:new 0 0 30.9 29.6;" xml:space="preserve">
+						<path d="M18.2,12.5L29,0h-2.6l-9.4,10.9L9.6,0H1l11.3,16.5L1,29.6h2.6l9.9-11.5l7.9,11.5h8.6L18.2,12.5L18.2,12.5z M14.7,16.6
+						L13.6,15l-9.1-13h3.9l7.4,10.5l1.1,1.6l9.6,13.7h-3.9L14.7,16.6L14.7,16.6z"/>
 					</svg>
 				</a>
 			</div>

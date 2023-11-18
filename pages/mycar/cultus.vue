@@ -9,7 +9,7 @@
 						<h4 class="weight300">Suzuki Cultus 1994</h4>
 						<div class="secWrap">
 							<slick ref="slick" class="slick-outer" :options="slickOptions">
-								<div class="section-contets">
+								<div class="section-contents">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><img src="/img/mycar/cultus-roa-01.jpg" alt="cultus-roa-01-img" loading="lazy"></div>
 										<div class="imgBox"><img src="/img/mycar/cultus-roa-02.jpg" alt="cultus-roa-02-img" loading="lazy"></div>
@@ -19,21 +19,21 @@
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2020 / 03 / 26</p>
-										<p>Charactor : 夢月ロア (にじさんじ)</p>
+										<p>Character : 夢月ロア (にじさんじ)</p>
 										<p class="description">ヤフオクで7万くらいで売られているときに購入した車両、走行距離は30万キロ超えの珍車でした。<br>
 											多分カルタスの痛車は初めてじゃないのかなと思いながら乗ってました笑<br>
 											VTuberというものに興味を持ち、めちゃくちゃ「にじさんじ」にハマりました。特にロアちゃんマジで天使だったんですよ！悪魔キャラですが天使でした！もー可愛くて可愛くて、貼っちゃいました。<br>
 											今ではVTuberを知るきっかけとなったり、痛車の輪が繋がった大きなターニングポイントとなりました。</p>
 									</div>
 								</div>
-								<div class="section-contets">
+								<div class="section-contents">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><img src="/img/mycar/cultus-wanko-01.jpg" alt="cultus-wanko-01-img" loading="lazy"></div>
 										<div class="imgBox"><img src="/img/mycar/cultus-wanko-02.jpg" alt="cultus-wanko-02-img" loading="lazy"></div>
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2019 / 10 / 27</p>
-										<p>Charactor : みかん & 虎太郎 (わんことくらそう)</p>
+										<p>Character : みかん & 虎太郎 (わんことくらそう)</p>
 										<p class="description">当時エロゲにどハマりして昔から人生を変えさせられたゲーム"わんことくらそう"というゲームに感銘を受けて貼りました。<br>
 											ちなみに、"花咲ワークスプリング！"と、"アオナツライン"はぼくの青春です。<br>
 											エクイップ01を履かせて旧車ないじりをしつつ、5連ミラーにノーズブラと迷走期ではあったものの、やりたいことを詰め込んだお子様ランチ仕様でした。</p>
@@ -148,7 +148,7 @@
 
 	@media screen and (max-width:768px) {
 
-		.section-contets .textBox {
+		.section-contents .textBox {
 			margin-top: 20px;
 		}
 

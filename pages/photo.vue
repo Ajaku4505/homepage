@@ -8,7 +8,7 @@
 					<section id="photo" class="contents-area">
 						<div class="secWrap">
 							<div class="flex-area grid">
-								<div class="section-contets" v-for="item in reverseItems">
+								<div class="section-contents" v-for="item in reverseItems">
 									<img @click="openModal(item)" :src="item.img_01_src" alt="photo_item" loading="lazy">
 								</div>
 								<modal :val="postItem" v-show="showContent" @close="closeModal" />
@@ -187,7 +187,7 @@
 		margin-bottom: 20px;
 	}
 
-	#photo .flex-area.grid .section-contets {
+	#photo .flex-area.grid .section-contents {
 		width: 205px;
 		height: 205px;
 		   object-fit: cover;
@@ -227,7 +227,7 @@
 			margin-bottom: 20px;
 		}
 
-		#photo .flex-area.grid .section-contets {
+		#photo .flex-area.grid .section-contents {
 			width: calc(100% / 2 - 5px);
 			height: 180px;
 			margin-bottom: 10px;

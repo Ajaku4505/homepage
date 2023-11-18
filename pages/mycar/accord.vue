@@ -9,7 +9,23 @@
 						<h4 class="weight300">Honda AccordWagon 1994</h4>
 						<div class="secWrap">
 							<slick ref="slick" class="slick-outer" :options="slickOptions">
-								<div class="section-contets">
+								<!-- <div class="section-contents">
+									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
+										<div class="imgBox"><img src="/img/mycar/accord-roa-02.jpg" alt="accord-roa-02-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-roa-03.jpg" alt="accord-roa-03-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-roa-04.jpg" alt="accord-roa-04-img" loading="lazy"></div>
+									</slick>
+									<div class="textBox weight300">
+										<p class="meta">2023 / 10 / 3</p>
+										<p>Character : 空崎ヒナ (ブルーアーカイブ)</p>
+										<p class="description">モノトーンで仕上げた1台です・<br>
+											車自体は宮崎に長らく置かれていた車両を購入し、メンテしてながら乗っています。<br>
+											カスタムはoldschoolで90年代の流行りを取り入れたイケイケ仕様です()<br>
+											エアサスと、各所に散りばめたメッキパーツがアピールポイントです。<br>
+											ホイールも当時のLUCKY STARを履かせ、慣れないHIPHOP流しながら町に繰り出してます。</p>
+									</div>
+								</div> -->
+								<div class="section-contents">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><video autoplay="" loop="" muted="" playsinline="" width="100%">
 										<source src="/video/accord-roa-01.mp4" type="video/mp4"></video></div>
@@ -19,7 +35,7 @@
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2021 / 09 / 21</p>
-										<p>Charactor : 夢月ロア (にじさんじ)</p>
+										<p>Character : 夢月ロア (にじさんじ)</p>
 										<p class="description">現仕様で一番時間をかけて手がけた作品です。<br>
 											車自体は宮崎に長らく置かれていた車両を購入し、メンテしてながら乗っています。<br>
 											カスタムはoldschoolで90年代の流行りを取り入れたイケイケ仕様です()<br>
@@ -27,7 +43,7 @@
 											ホイールも当時のLUCKY STARを履かせ、慣れないHIPHOP流しながら町に繰り出してます。</p>
 									</div>
 								</div>
-								<div class="section-contets">
+								<div class="section-contents">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><img src="/img/mycar/accord-ark-01.jpg" alt="accord-ark-01-img" loading="lazy"></div>
 										<div class="imgBox"><img src="/img/mycar/accord-ark-02.jpg" alt="accord-ark-02-img" loading="lazy"></div>
@@ -35,7 +51,7 @@
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2021 / 08 / 24</p>
-										<p>Charactor : 陈 Ch'en (Arknight)</p>
+										<p>Character : 陈 Ch'en (Arknight)</p>
 										<p class="description">いまアークナイツがめちゃめちゃアツいです！ほんと、もう理性が足りないくらい周回してます。<br>
 											ほんとにね、チェン※(陈) いいよチェン、かっこいいお姉さんだしほんと最高にカッコいい!!<br>
 											元はカラーのデザインを作っていたのですが、知り合いから「モノトーンにしてみろ」と脅されてやってみたのがハマりました。白ボディにモノトーンはめちゃめちゃかっこいい<br>
@@ -153,7 +169,7 @@
 
 	@media screen and (max-width:768px) {
 
-		.section-contets .textBox {
+		.section-contents .textBox {
 			margin-top: 20px;
 		}
 

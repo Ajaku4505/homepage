@@ -6,8 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "release": "yarn release"
+    "release": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",

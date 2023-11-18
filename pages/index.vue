@@ -35,7 +35,7 @@
 							<div class="section-text">
 							<h1 class="section-title weight700">About</h1>
 							</div>
-							<div class="section-contets">
+							<div class="section-contents">
 								<div class="textBox weight300">
 									<h2 class="weight500">きれいで素敵なものを生み出し<br>見た人の気持ちが少しでも変われば－</h2>
 									<p>何のためにデザインしたりカメラを回してるのかっていうと</p>
@@ -59,12 +59,12 @@
 							<div class="section-text">
 							<h1 class="section-title weight700">MyCar</h1>
 							</div>
-							<div class="section-contets">
+							<div class="section-contents">
 								<div class="imgBox" v-observe-visibility='{callback: visibilityChanged02, once: true}' v-bind:class='{active:isVisible02}'><img src="img/index/mycar-img.jpg" alt="mycar-img" loading="lazy"></div>
 								<div class="textBox weight300">
 									<p class="meta">2021 / 09 / 21</p><br class="sp">
 									<p>Honda AccordWagon 1994</p><br class="sp">
-									<p>Charactor : YuzukiRoa (NIJISANJI)</p>
+									<p>Character : YuzukiRoa (NIJISANJI)</p>
 								</div>
 								<div class="link">
 									<router-link class="nav-link" to="/mycar/accord">
@@ -80,7 +80,7 @@
 							<div class="section-text">
 							<h1 class="section-title weight700">Design</h1>
 							</div>
-							<div class="section-contets">
+							<div class="section-contents">
 								<div class="imgBox multiple">
 									<div v-observe-visibility='{callback: visibilityChanged03, once: true}' v-bind:class='{active:isVisible03}'>
 										<img src="img/index/design-img_01.jpg" alt="design-01" loading="lazy">
@@ -109,7 +109,7 @@
 							<div class="section-text">
 								<h1 class="section-title weight700">Photo</h1><span class="section-subtitle weight700">by<img src="img/index/karasuzu.png" alt="カラスズ印刷" loading="lazy"></span>
 							</div>
-							<div class="section-contets">
+							<div class="section-contents">
 								<div class="imgBox multiple">
 									<div v-observe-visibility='{callback: visibilityChanged04, once: true}' v-bind:class='{active:isVisible04}'>
 										<img src="img/index/photo-img_01.jpg" alt="photo-01" loading="lazy">
@@ -357,8 +357,8 @@
 		background: var(--sub-color);
 	}
 
-	.section-contets .textBox > h2, 
-	.section-contets .textBox > p {
+	.section-contents .textBox > h2, 
+	.section-contents .textBox > p {
 		line-height: 1.75;
 	}
 
@@ -447,7 +447,7 @@
 		left: 260px;
 	}
 
-	#about .section-contets {
+	#about .section-contents {
 		display: flex;
 	}
 
@@ -466,7 +466,7 @@
 		left: -220px;
 	}
 
-	#mycar .section-contets {
+	#mycar .section-contents {
 		width: 800px;
 		margin: auto;
 	}
@@ -514,6 +514,7 @@
 
 	.section-subtitle img {
 		margin-left: 10px;
+		max-width: 200px;
 	}
 
 	#photo .imgBox {
@@ -570,16 +571,16 @@
 		margin-bottom: 40px;
 	}
 
-	.section-contets .textBox > h2,
-	.section-contets .textBox > p {
+	.section-contents .textBox > h2,
+	.section-contents .textBox > p {
 		line-height: 1.25;
 		letter-spacing: .1em;
 	}
 
-	#about .section-contets .textBox > p,
-	#mycar .section-contets .textBox > p,
-	#design .section-contets .textBox > p,
-	#photo .section-contets .textBox > p {
+	#about .section-contents .textBox > p,
+	#mycar .section-contents .textBox > p,
+	#design .section-contents .textBox > p,
+	#photo .section-contents .textBox > p {
 		line-height: 1.5;
 		display: inline;
 	}
@@ -599,7 +600,7 @@
 		left: 170px;
 	}
 
-	#about .section-contets {
+	#about .section-contents {
 		display: block;
 	}
 
@@ -614,7 +615,7 @@
 
 	/* mycar */
 
-	#mycar .section-contets {
+	#mycar .section-contents {
 		width: 100%;
 		margin: auto;
 	}
@@ -669,4 +670,11 @@
 }
 
 
+</style>
+
+<style scoped>
+
+img {
+	width: 100%;
+}
 </style>

@@ -8,7 +8,7 @@
 					<section id="design" class="contents-area">
 						<div class="secWrap">
 							<div class="flex-area grid">
-								<div class="section-contets" v-for="item in reverseItems">
+								<div class="section-contents" v-for="item in reverseItems">
 									<img @click="openModal(item)" :src="item.img_01_src" alt="design_item" loading="lazy">
 								</div>
 								<modal :val="postItem" v-show="showContent" @close="closeModal" />
@@ -61,6 +61,7 @@
 		components: { Modal },
 
 		data () {
+			
 			return {
 				showContent: false,
 				postItem: "",
@@ -308,7 +309,108 @@
 						img_02_src: require('../static/img/design/design-img_37-2.jpg'),
 						desc: 'インデックスの雰囲気と、夜空に浮かぶ紋章が目立つデザインにしました。\n随所にあしらいを増やして遊び心も盛り込みました。',
 					},
-
+					{ 
+						id: 39, 
+						title: 'スクエアステッカー(Star☆Ring 天狼 ウルル)',
+						img_01_src: require('../static/img/design/design-img_39-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_39-2.jpg'),
+						desc: 'キャラクターはブランド会社の社長ということもあり、モチーフの柄を服の生地に見立ててデザインしました。\n質感とキャラクターの融合で細かいところに目がいくようデザインしました。',
+					},
+					{ 
+						id: 40, 
+						title: 'スクエアステッカー(ホロライブ 大空スバル)',
+						img_01_src: require('../static/img/design/design-img_40-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_40-2.jpg'),
+						desc: 'エネルギッシュでモチーフカラーのイエローと差し色のグリーンを生かしたエネルギッシュなデザインです。\n色合いのバランスをうまく取ることに苦労しました。',
+					},
+					{ 
+						id: 41, 
+						title: 'スクエアステッカー(にじさんじ 海妹四葉)',
+						img_01_src: require('../static/img/design/design-img_41-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_41-2.jpg'),
+						desc: 'パープルとイエローでまとめたシンプルで蛍光色なデザインをしました。',
+					},
+					{ 
+						id: 42, 
+						title: '痛車デザイン(にじさんじ 先斗寧)',
+						img_01_src: require('../static/img/design/design-img_42-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_42-2.jpg'),
+						desc: '和のテイストを盛り込んで、敢えて明朝体のフォントを用いて縁いっぱいに作成しました。',
+					},
+					{ 
+						id: 43, 
+						title: '学生証製作(ブルーアーカイブ SRT特殊部隊)',
+						img_01_src: require('../static/img/design/design-img_43-1.jpg'),
+						desc: '元々のロゴと、特殊部隊を考慮し 学生証として違和感のないようなデザインを心がけました。\n背景の柄も元になった部隊から引用し、生徒が付けていて欲しいと思う仕上がりにしました。',
+					},
+					{ 
+						id: 44, 
+						title: '痛車デザイン(アイドルマスター シンデレラガールズ 桐生つかさ)',
+						img_01_src: require('../static/img/design/design-img_44-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_44-2.jpg'),
+						desc: '自身のファッションブランドで用いられている柄のパターンをモチーフにデザインしました。\n背景には服の質感を持たせたテクスチャを加え、シックな雰囲気に仕上げました。',
+					},
+					{ 
+						id: 45, 
+						title: 'スクエアステッカー(アイドルマスター シンデレラガールズ 桐生つかさ)',
+						img_01_src: require('../static/img/design/design-img_45-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_45-2.jpg'),
+						desc: '車のデザインをそのまま落とし込みましたが、ファッション誌のような余白を意識したステッカーを作りました。\n上品でシンプルな見た目は他のデザインではあまりないかなと思います。',
+					},
+					{ 
+						id: 46, 
+						title: '痛車デザイン(アイドルマスター シンデレラガールズ 久川姉妹)',
+						img_01_src: require('../static/img/design/design-img_46-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_46-2.jpg'),
+						desc: '元気な2人の可愛らしさも含んだメルヘンチックな感じをデザインに落とし込みました。\nカラーのバランスと柔らかい感じの表現に苦労しました。',
+					},
+					{ 
+						id: 47, 
+						title: '社員証(ブルーアーカイブ 連邦捜査部S.C.H.A.L.E)',
+						img_01_src: require('../static/img/design/design-img_47-1.jpg'),
+						desc: 'シャーレのカードを忠実に再現してデザインしました。\n展示中にも見せれるようにリアルな形で作りました。',
+					},
+					{ 
+						id: 48, 
+						title: '痛車デザイン(ブルーアーカイブ 空崎ヒナ)',
+						img_01_src: require('../static/img/design/design-img_48-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_48-2.jpg'),
+						desc: 'ローライダーのブラシアートを意識して作りました。\n白ボディに合うようにモノトーンのデザインに仕上げ、対照的なデザインで仕上げました。\nクリアステッカーで作りたかったのですが、塗装が持っていかれたので諦めました。',
+					},
+					{ 
+						id: 49, 
+						title: '痛車デザイン(ホロライブ 大神ミオ)',
+						img_01_src: require('../static/img/design/design-img_49-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_49-2.jpg'),
+						desc: '和紙に描かれた水面を模した背景に、桜の枝と花びらを散りばめたデザインにまとめました。\nボディ色に合わせて淡い色を用いました。',
+					},
+					{ 
+						id: 50, 
+						title: '痛車デザイン(ホロライブ 儒烏風亭らでん)',
+						img_01_src: require('../static/img/design/design-img_50-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_50-2.jpg'),
+						desc: '暗い背景に、赤の差し色を加えた大人なデザインに仕上げました。\n背景に家紋を入れて、名前もはみ出すようなインパクトのある仕上がりになりました。',
+					},
+					{ 
+						id: 51, 
+						title: 'スクエアステッカー(ホロライブ 大神ミオ)',
+						img_01_src: require('../static/img/design/design-img_51-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_51-2.jpg'),
+						desc: '痛車で作ったデザインをそのまま箱ステに落とし込みました。\n縁に線を入れ、スクエアでキャラクターを表に出したステッカーをつくりました。',
+					},
+					{ 
+						id: 52, 
+						title: 'スクエアステッカー(ホロライブ 儒烏風亭らでん)',
+						img_01_src: require('../static/img/design/design-img_52-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_52-2.jpg'),
+						desc: '痛車のデザインを箱ステに落とし込んだかっこいい仕上がりにしました。\n黒と赤の組み合わせにより、上品で和をイメージさせたデザインに仕上げました。',
+					},
+					{ 
+						id: 53, 
+						title: 'アパレル(道駅さんじよじ Tシャツ)',
+						img_01_src: require('../static/img/design/design-img_53-1.jpg'),
+						desc: '全面はシンプルに提供いただいたさんじよじの文字を入れました。\n背面はプラークを意識したアイデアをもらい、それに合わせでデザインを起こしました。',
+					},
 				]
 			}
 	    },
@@ -409,7 +511,7 @@
 		margin-bottom: 20px;
 	}
 
-	#design .flex-area.grid .section-contets {
+	#design .flex-area.grid .section-contents {
 		width: 280px;
 		height: 280px;
 		   object-fit: cover;
@@ -455,7 +557,7 @@
 			margin-bottom: 20px;
 		}
 
-		#design .flex-area.grid .section-contets {
+		#design .flex-area.grid .section-contents {
 			width: calc(100% / 2 - 5px);
 			height: 180px;
 			margin-bottom: 10px;
