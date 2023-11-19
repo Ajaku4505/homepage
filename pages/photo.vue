@@ -190,6 +190,9 @@
 	#photo .flex-area.grid .section-contents {
 		width: 205px;
 		height: 205px;
+		width: calc(100% / 4 - 10px);
+    height: auto;
+    aspect-ratio: 1;
 		   object-fit: cover;
 		-o-object-fit: cover;
 		margin-bottom: 20px;
@@ -230,6 +233,8 @@
 		#photo .flex-area.grid .section-contents {
 			width: calc(100% / 2 - 5px);
 			height: 180px;
+			height: auto;
+			aspect-ratio: 1 / 1;
 			margin-bottom: 10px;
 		}
 

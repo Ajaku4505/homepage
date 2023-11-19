@@ -450,6 +450,8 @@
 		#portfolio .flex-area.grid .section-contents {
 			width: calc(100% / 2 - 5px);
 			height: 180px;
+			height: auto;
+			aspect-ratio: 1 / 1;
 			margin-bottom: 10px;
 		}
 

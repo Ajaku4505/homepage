@@ -514,6 +514,9 @@
 	#design .flex-area.grid .section-contents {
 		width: 280px;
 		height: 280px;
+		width: calc(100% / 3 - 10px);
+    height: auto;
+    aspect-ratio: 1;
 		   object-fit: cover;
 		-o-object-fit: cover;
 		margin-bottom: 20px;
@@ -560,6 +563,8 @@
 		#design .flex-area.grid .section-contents {
 			width: calc(100% / 2 - 5px);
 			height: 180px;
+			height: auto;
+			aspect-ratio: 1 / 1;
 			margin-bottom: 10px;
 		}
 
