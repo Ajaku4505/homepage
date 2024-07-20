@@ -189,7 +189,7 @@
 						id: 24, 
 						title: '大林組 Tsunashima サイネージ',
 						img_01_src: require('../static/img/portfolio/tsunashima.jpg'),
-						url: 'https://tsst.scim-service.jp/signage/',
+						// url: 'https://tsst.scim-service.jp/signage/',
 					},
 					{ 
 						id: 25, 
@@ -262,6 +262,47 @@
 						title: 'キッザニア SDGsページ',
 						img_01_src: require('../static/img/portfolio/kidzania.jpg'),
 						url: 'https://www.kidzania.jp/sdgs/',
+					},
+					{ 
+						id: 39, 
+						title: 'LEXUS 東京モーターショウ 諸元表カタログ + 5会場',
+						img_01_src: require('../static/img/portfolio/lexus.jpg'),
+					},
+					{ 
+						id: 40, 
+						title: '一般社団法人集合住宅デジタル高度化協議会(CDEfC) サイト',
+						img_01_src: require('../static/img/portfolio/cdfec.jpg'),
+						url: 'https://cdefc.jp/',
+					},
+					{ 
+						id: 41, 
+						title: 'MONSTER STUDIO ブランドサイト',
+						img_01_src: require('../static/img/portfolio/monster_studio.jpg'),
+						url: 'https://www.monster-studio.jp/',
+					},
+					{ 
+						id: 42, 
+						title: '浦和レッズ 観戦ルールとマナーページ',
+						img_01_src: require('../static/img/portfolio/urawa_manner.jpg'),
+						url: 'https://www.urawa-reds.co.jp/game/manner.php',
+					},
+					{ 
+						id: 43, 
+						title: 'ビジネスブレイン太田昭和 コーポレートサイト',
+						img_01_src: require('../static/img/portfolio/bbs.jpg'),
+						url: 'https://www.bbs.co.jp/',
+					},
+					{ 
+						id: 44, 
+						title: 'CEDEC2024 ティザーサイト',
+						img_01_src: require('../static/img/portfolio/cedec_teaser.jpg'),
+						url: 'https://cedec.cesa.or.jp/2024/',
+					},
+					{ 
+						id: 45, 
+						title: 'パーソルクロステクノロジー 新卒採用サイト',
+						img_01_src: require('../static/img/portfolio/pxt.jpg'),
+						url: 'https://persol-xtech.co.jp/recruit/newgraduate/',
 					},
 				]
 			}

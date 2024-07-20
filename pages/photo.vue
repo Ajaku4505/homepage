@@ -116,7 +116,7 @@
 
 					{ hid: 'og:site_name', property: 'og:site_name', content: 'Photo | Ajaku Portfolio' },
 					{ hid: 'og:title', property: 'og:title', content: 'Photo | Ajaku Portfolio' },
-					{ hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp/photo' },
+					{ hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp/photo/' },
 					{ hid: 'og:image', property: 'og:image', content: 'https://ajaku.jp/img/thumbnail.jpg' },
 					{ hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' }
 				],

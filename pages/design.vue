@@ -411,6 +411,46 @@
 						img_01_src: require('../static/img/design/design-img_53-1.jpg'),
 						desc: '全面はシンプルに提供いただいたさんじよじの文字を入れました。\n背面はプラークを意識したアイデアをもらい、それに合わせでデザインを起こしました。',
 					},
+					{ 
+						id: 54, 
+						title: 'グッズ(VOGS エアフレッシュナー)',
+						img_01_src: require('../static/img/design/design-img_54-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_54-2.jpg'),
+						desc: 'グッズを作ることを目標に、一度作ってみました。\nシンプルに、中央にロゴの入った飾らないデザインです。',
+					},
+					{ 
+						id: 55, 
+						title: 'Webデザイン(KPF2023 スペックシート @Veleno_jaku)',
+						img_01_src: require('../static/img/design/design-img_55-1.jpg'),
+						desc: 'イベントに向けて、デジタルスペックシートを作成しました。\nニーズは、来場してきた見学者に向けてということなので、スマホファーストなデザインで、比較的短い期間での制作でしたので、PCサイトはSPを踏襲した形式にしました。\nhttps://ajaku.jp/kpf2023_veleno_gt86/',
+					},
+					{ 
+						id: 56, 
+						title: 'スクエアステッカー(赤見 かるび)',
+						img_01_src: require('../static/img/design/design-img_56-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_56-2.jpg'),
+						desc: 'キャラクターの可愛さと、その相反する思考や行動をデザインに落とし込みました。\nスト鯖GTA2見てたら、"お肉の組" っていう面白いネームだなっていのもあって背景のペイズリー柄はお肉を表現しています。',
+					},
+					{ 
+						id: 57, 
+						title: '印刷物(ニコニコ超会議2024 スペックシート @galhey_kyermm)',
+						img_01_src: require('../static/img/design/design-img_57-1.jpg'),
+						desc: 'めぐるのキャラクターと自身の車のスペック表を、うまく組み合わせるデザインにしました。\n色にはユニットメンバーのカラーを融合させてグラデーションを形成し、星をたくさん散りばめ、パッションさが溢れ出るオシャレなデザインに仕上げました。',
+					},
+					{ 
+						id: 58, 
+						title: '痛車デザイン(ぶいすぽっ！ 兎咲ミミ)',
+						img_01_src: require('../static/img/design/design-img_58-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_58-2.jpg'),
+						desc: 'みみたやの可愛いポップなイメージと配信にまつわる要素を多く取り入れ、ゲーム要素にドット文字を起用しました。\nモチーフカラーをグラデーションで融合しつつ、バックをふわふわした夢の中のような形取りをしました。',
+					},
+					{ 
+						id: 59, 
+						title: 'スクエアステッカー(ぶいすぽっ！ 兎咲ミミ)',
+						img_01_src: require('../static/img/design/design-img_59-1.jpg'),
+						img_02_src: require('../static/img/design/design-img_59-2.jpg'),
+						desc: '痛車のデザインを箱ステに落とし込んだキュートな仕上がりにしました。',
+					},
 				]
 			}
 	    },
@@ -439,7 +479,7 @@
 
 					{ hid: 'og:site_name', property: 'og:site_name', content: 'Design | Ajaku Portfolio' },
 					{ hid: 'og:title', property: 'og:title', content: 'Design | Ajaku Portfolio' },
-					{ hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp/design' },
+					{ hid: 'og:url', property: 'og:url', content: 'https://ajaku.jp/design/' },
 					{ hid: 'og:description', property: 'og:description', content: 'Mainly, the list includes the items we have designed: ITASHA, stickers, posters, websites, and various other achievements.' },
 					{ hid: 'og:image', property: 'og:image', content: 'https://ajaku.jp/img/thumbnail.jpg' },
 					{ hid: 'twitter:site', name: 'twitter:site', content: '@Ajaku4505' }

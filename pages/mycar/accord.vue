@@ -9,22 +9,19 @@
 						<h4 class="weight300">Honda AccordWagon 1994</h4>
 						<div class="secWrap">
 							<slick ref="slick" class="slick-outer" :options="slickOptions">
-								<!-- <div class="section-contents">
+								<div class="section-contents">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
-										<div class="imgBox"><img src="/img/mycar/accord-roa-02.jpg" alt="accord-roa-02-img" loading="lazy"></div>
-										<div class="imgBox"><img src="/img/mycar/accord-roa-03.jpg" alt="accord-roa-03-img" loading="lazy"></div>
-										<div class="imgBox"><img src="/img/mycar/accord-roa-04.jpg" alt="accord-roa-04-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-blue-01.jpg" alt="accord-blue-01-img" loading="lazy"></div>
+										<div class="imgBox"><img src="/img/mycar/accord-blue-02.jpg" alt="accord-blue-02.img" loading="lazy"></div>
 									</slick>
 									<div class="textBox weight300">
 										<p class="meta">2023 / 10 / 3</p>
 										<p>Character : 空崎ヒナ (ブルーアーカイブ)</p>
-										<p class="description">モノトーンで仕上げた1台です・<br>
-											車自体は宮崎に長らく置かれていた車両を購入し、メンテしてながら乗っています。<br>
-											カスタムはoldschoolで90年代の流行りを取り入れたイケイケ仕様です()<br>
-											エアサスと、各所に散りばめたメッキパーツがアピールポイントです。<br>
-											ホイールも当時のLUCKY STARを履かせ、慣れないHIPHOP流しながら町に繰り出してます。</p>
+										<p class="description">アークナイツ仕様の時と同様、モノトーンで仕上げた1台です。<br>
+											スモークを表現したり、lowriderのトランクに描かれているブラシアートからインスピレーションを受けました。<br>
+											水着や下着の女性が多彩に描かれていることが多いため、今回の画像も 水着を起用しました。</p>
 									</div>
-								</div> -->
+								</div>
 								<div class="section-contents">
 									<slick ref="slick" class="slick-outer" :options="slick_imgOptions">
 										<div class="imgBox"><video autoplay="" loop="" muted="" playsinline="" width="100%">
